@@ -277,39 +277,39 @@
     </string>
     <string name="double_click_toolbar_tip">Pode fazer duplo clique no título para voltar para o topo</string>
     <string name="releases_click_tip">Pode fazer clique longo no item para ver as transferências disponíveis</string>
-    <string name="created_comment_on_commit">Criou um comentário no commit em %s</string>
-    <string name="created_comment_on_issue">Criou um comentário no incidente %d em %s</string>
-    <string name="created_repo">Criou o repositório %s</string>
-    <string name="forked_to">Forkou %s para %s</string>
-    <string name="starred_repo">Adicionou %s aos favoritos</string>
-    <string name="push_to">Enviou para %s em %s</string>
-    <string name="created_tag_at">Criou etiqueta %s em %s</string>
-    <string name="created_branch_at">Criou branch %s em %s</string>
-    <string name="delete_tag_at">Eliminar etiqueta %s em %s</string>
-    <string name="delete_branch_at">Eliminar branch %s em %s</string>
-    <string name="published_release_at">Publicou lançamento %s em %s</string>
-    <string name="opened_issue_at">Abriu incidente %d em %s</string>
-    <string name="closed_issue_at">Fechou incidente %d em %s</string>
-    <string name="reopened_issue_at">Reabriu incidente %d em %s</string>
-    <string name="edited_issue_at">Editou incidente %d em %s</string>
-    <string name="assigned_issue_at">Atribuiu incidente %d em %s</string>
-    <string name="unassigned_issue_at">Removeu atribuição de %d em %s</string>
-    <string name="labeled_issue_at">Etiquetou incidente %d em %s</string>
-    <string name="unlabeled_issue_at">Removeu etiqueta de %d em %s</string>
-    <string name="milestoned_issue_at">Adicionou milestone ao incidente %d em %s</string>
-    <string name="demilestoned_issue_at">Removeu milestone de %d em %s</string>
-    <string name="added_member_to">Adicionou membro %s a %s</string>
-    <string name="deleted_member_at">Eliminou membro %s de %s</string>
-    <string name="edited_member_at">Editou membro %s em %s</string>
-    <string name="made_repo_public">Tornou %s público</string>
-    <string name="org_blocked_user">Org. %s bloqueou o utilizador %s</string>
-    <string name="org_unblocked_user">Org. %s desbloqueou o utilizador %s</string>
-    <string name="created_pull_request_comment_at">Criou o comentário da revisão do pull request em %s</string>
-    <string name="deleted_pull_request_comment_at">Eliminou o comentário da revisão do pull request em %s</string>
-    <string name="edited_pull_request_comment_at">Editou o comentário da revisão do pull request em %s</string>
-    <string name="submitted_pull_request_review_at">Submeteu a revisão do pull request em %s</string>
-    <string name="edited_pull_request_review_at">Editou a revisão do pull request em %s</string>
-    <string name="dismissed_pull_request_review_at">Rejeitou a revisão do pull request em %s</string>
+    <string name="created_comment_on_commit" formatted="false">Criou um comentário no commit em %s</string>
+    <string name="created_comment_on_issue" formatted="false">Criou um comentário no incidente %d em %s</string>
+    <string name="created_repo" formatted="false">Criou o repositório %s</string>
+    <string name="forked_to" formatted="false">Forkou %s para %s</string>
+    <string name="starred_repo" formatted="false">Adicionou %s aos favoritos</string>
+    <string name="push_to" formatted="false">Enviou para %s em %s</string>
+    <string name="created_tag_at" formatted="false">Criou etiqueta %s em %s</string>
+    <string name="created_branch_at" formatted="false">Criou branch %s em %s</string>
+    <string name="delete_tag_at" formatted="false">Eliminar etiqueta %s em %s</string>
+    <string name="delete_branch_at" formatted="false">Eliminar branch %s em %s</string>
+    <string name="published_release_at" formatted="false">Publicou lançamento %s em %s</string>
+    <string name="opened_issue_at" formatted="false">Abriu incidente %d em %s</string>
+    <string name="closed_issue_at" formatted="false">Fechou incidente %d em %s</string>
+    <string name="reopened_issue_at" formatted="false">Reabriu incidente %d em %s</string>
+    <string name="edited_issue_at" formatted="false">Editou incidente %d em %s</string>
+    <string name="assigned_issue_at" formatted="false">Atribuiu incidente %d em %s</string>
+    <string name="unassigned_issue_at" formatted="false">Removeu atribuição de %d em %s</string>
+    <string name="labeled_issue_at" formatted="false">Etiquetou incidente %d em %s</string>
+    <string name="unlabeled_issue_at" formatted="false">Removeu etiqueta de %d em %s</string>
+    <string name="milestoned_issue_at" formatted="false">Adicionou milestone ao incidente %d em %s</string>
+    <string name="demilestoned_issue_at" formatted="false">Removeu milestone de %d em %s</string>
+    <string name="added_member_to" formatted="false">Adicionou membro %s a %s</string>
+    <string name="deleted_member_at" formatted="false">Eliminou membro %s de %s</string>
+    <string name="edited_member_at" formatted="false">Editou membro %s em %s</string>
+    <string name="made_repo_public" formatted="false">Tornou %s público</string>
+    <string name="org_blocked_user" formatted="false">Org. %s bloqueou o utilizador %s</string>
+    <string name="org_unblocked_user" formatted="false">Org. %s desbloqueou o utilizador %s</string>
+    <string name="created_pull_request_comment_at" formatted="false">Criou o comentário da revisão do pull request em %s</string>
+    <string name="deleted_pull_request_comment_at" formatted="false">Eliminou o comentário da revisão do pull request em %s</string>
+    <string name="edited_pull_request_comment_at" formatted="false">Editou o comentário da revisão do pull request em %s</string>
+    <string name="submitted_pull_request_review_at" formatted="false">Submeteu a revisão do pull request em %s</string>
+    <string name="edited_pull_request_review_at" formatted="false">Editou a revisão do pull request em %s</string>
+    <string name="dismissed_pull_request_review_at" formatted="false">Rejeitou a revisão do pull request em %s</string>
     <string name="undo">Anular</string>
     <string name="no_bookmarks">Sem marcadores</string>
     <string name="no_trace">Sem rastreios</string>

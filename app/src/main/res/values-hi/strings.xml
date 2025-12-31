@@ -321,39 +321,39 @@
     <string name="double_click_toolbar_tip">सूची पृष्ठ में शीर्ष पर वापस जाने के लिए आप शीर्षक को दोहरा क्लिक कर सकते हैं।</string>
     <string name="releases_click_tip">उपलब्ध डाउनलोड देखने के लिए आप आइटम पर लंबा क्लिक कर सकते हैं।</string>
 
-    <string name="created_comment_on_commit">%s में कमिट पर कमेंट किया गया</string>
-    <string name="created_comment_on_issue">%d के मुद्दे पर %s में कमेंट किया गया</string>
-    <string name="created_repo">रेपॉजिटरी %s बनाया गया</string>
-    <string name="forked_to">%s से %s पर फॉर्क किया गया</string>
-    <string name="starred_repo">%s को तारांकित किया गया</string>
-    <string name="push_to">%s से %s पर पुश करें</string>
-    <string name="created_tag_at">टैग %s को %s में बनाया गया</string>
-    <string name="created_branch_at">ब्रांच %s को %s पर बनाया गया</string>
-    <string name="delete_tag_at">टैग %s को %s से हटाएं</string>
-    <string name="delete_branch_at">ब्रांच %s को %s पर से हटाएं</string>
-    <string name="published_release_at">रिलीज़ %s को %s पर पब्लिश किया गया</string>
-    <string name="opened_issue_at">मुद्दे %d को %s में जारी किया गया</string>
-    <string name="closed_issue_at">मुद्दे %d को %s में बंद किया गया</string>
-    <string name="reopened_issue_at">मुद्दे %d को %s पर पुनः खोल दिया गया</string>
-    <string name="edited_issue_at">मुद्दे %d को %s पर एडिट किया गया</string>
-    <string name="assigned_issue_at">मुद्दे %d को %s में असाइन किया गया</string>
-    <string name="unassigned_issue_at">मुद्दे %d को %s में अनअसाइन किया गया</string>
-    <string name="labeled_issue_at">मुद्दे %d को %s में लेबल किया गया</string>
-    <string name="unlabeled_issue_at">मुद्दे %d को %s में अनलेबल किया गया</string>
-    <string name="milestoned_issue_at">मुद्दे %d को %s में माइलस्टोन किया गया</string>
-    <string name="demilestoned_issue_at">मुद्दे %d को %s में माइलस्टोन को हटाया गया</string>
-    <string name="added_member_to">सदस्य %s को %s में जोड़ा गया</string>
-    <string name="deleted_member_at">सदस्य %s को %s से हटाया गया</string>
-    <string name="edited_member_at">सदस्य %s को %s पर एडिट किया गया</string>
-    <string name="made_repo_public">%s को सार्वजनिक किया गया</string>
-    <string name="org_blocked_user">आर्गेनाइजेशन %s ने यूजर %s को ब्लॉक कर दिया</string>
-    <string name="org_unblocked_user">आर्गेनाइजेशन %s ने यूजर %s को अनब्लॉक कर दिया</string>
-    <string name="created_pull_request_comment_at">%s पर पुल रिक्वेस्ट समीक्षा कमेंट बनाई गई</string>
-    <string name="deleted_pull_request_comment_at">%s पर पुल रिक्वेस्ट समीक्षा कमेंट हटाई गई</string>
-    <string name="edited_pull_request_comment_at">%s पर पुल रिक्वेस्ट समीक्षा को एडिट किया गया</string>
-    <string name="submitted_pull_request_review_at">%s पर पुल रिक्वेस्ट समीक्षा सबमिट की गई</string>
-    <string name="edited_pull_request_review_at">%s पर पुल रिक्वेस्ट समीक्षा एडिट की गई</string>
-    <string name="dismissed_pull_request_review_at">%s पर पुल रिक्वेस्ट की समीक्षा खारिज कर दी गई</string>
+    <string name="created_comment_on_commit" formatted="false">%s में कमिट पर कमेंट किया गया</string>
+    <string name="created_comment_on_issue" formatted="false">%d के मुद्दे पर %s में कमेंट किया गया</string>
+    <string name="created_repo" formatted="false">रेपॉजिटरी %s बनाया गया</string>
+    <string name="forked_to" formatted="false">%s से %s पर फॉर्क किया गया</string>
+    <string name="starred_repo" formatted="false">%s को तारांकित किया गया</string>
+    <string name="push_to" formatted="false">%s से %s पर पुश करें</string>
+    <string name="created_tag_at" formatted="false">टैग %s को %s में बनाया गया</string>
+    <string name="created_branch_at" formatted="false">ब्रांच %s को %s पर बनाया गया</string>
+    <string name="delete_tag_at" formatted="false">टैग %s को %s से हटाएं</string>
+    <string name="delete_branch_at" formatted="false">ब्रांच %s को %s पर से हटाएं</string>
+    <string name="published_release_at" formatted="false">रिलीज़ %s को %s पर पब्लिश किया गया</string>
+    <string name="opened_issue_at" formatted="false">मुद्दे %d को %s में जारी किया गया</string>
+    <string name="closed_issue_at" formatted="false">मुद्दे %d को %s में बंद किया गया</string>
+    <string name="reopened_issue_at" formatted="false">मुद्दे %d को %s पर पुनः खोल दिया गया</string>
+    <string name="edited_issue_at" formatted="false">मुद्दे %d को %s पर एडिट किया गया</string>
+    <string name="assigned_issue_at" formatted="false">मुद्दे %d को %s में असाइन किया गया</string>
+    <string name="unassigned_issue_at" formatted="false">मुद्दे %d को %s में अनअसाइन किया गया</string>
+    <string name="labeled_issue_at" formatted="false">मुद्दे %d को %s में लेबल किया गया</string>
+    <string name="unlabeled_issue_at" formatted="false">मुद्दे %d को %s में अनलेबल किया गया</string>
+    <string name="milestoned_issue_at" formatted="false">मुद्दे %d को %s में माइलस्टोन किया गया</string>
+    <string name="demilestoned_issue_at" formatted="false">मुद्दे %d को %s में माइलस्टोन को हटाया गया</string>
+    <string name="added_member_to" formatted="false">सदस्य %s को %s में जोड़ा गया</string>
+    <string name="deleted_member_at" formatted="false">सदस्य %s को %s से हटाया गया</string>
+    <string name="edited_member_at" formatted="false">सदस्य %s को %s पर एडिट किया गया</string>
+    <string name="made_repo_public" formatted="false">%s को सार्वजनिक किया गया</string>
+    <string name="org_blocked_user" formatted="false">आर्गेनाइजेशन %s ने यूजर %s को ब्लॉक कर दिया</string>
+    <string name="org_unblocked_user" formatted="false">आर्गेनाइजेशन %s ने यूजर %s को अनब्लॉक कर दिया</string>
+    <string name="created_pull_request_comment_at" formatted="false">%s पर पुल रिक्वेस्ट समीक्षा कमेंट बनाई गई</string>
+    <string name="deleted_pull_request_comment_at" formatted="false">%s पर पुल रिक्वेस्ट समीक्षा कमेंट हटाई गई</string>
+    <string name="edited_pull_request_comment_at" formatted="false">%s पर पुल रिक्वेस्ट समीक्षा को एडिट किया गया</string>
+    <string name="submitted_pull_request_review_at" formatted="false">%s पर पुल रिक्वेस्ट समीक्षा सबमिट की गई</string>
+    <string name="edited_pull_request_review_at" formatted="false">%s पर पुल रिक्वेस्ट समीक्षा एडिट की गई</string>
+    <string name="dismissed_pull_request_review_at" formatted="false">%s पर पुल रिक्वेस्ट की समीक्षा खारिज कर दी गई</string>
 
     <string name="undo">अनडू</string>
     <string name="no_bookmarks">कोई बुकमार्क्स नहीं</string>

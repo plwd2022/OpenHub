@@ -350,39 +350,39 @@
     <string name="double_click_toolbar_tip">Você pode clicar duas vezes no título para voltar ao topo da página da lista.</string>
     <string name="releases_click_tip">Você pode clicar longamente no ítem para visualizar os Downloads disponíveis.</string>
 
-    <string name="created_comment_on_commit">Criado comentário sobre commit em %s</string>
-    <string name="created_comment_on_issue">Comentário criado no problema %d para %s</string>
-    <string name="created_repo">Repositório criado %s</string>
-    <string name="forked_to">Bifurcado %s para %s</string>
-    <string name="starred_repo">Estrelou %s</string>
-    <string name="push_to">Pressione para %s para %s</string>
-    <string name="created_tag_at">TAG criada %s para %s</string>
-    <string name="created_branch_at">Ramificação criada %s para %s</string>
-    <string name="delete_tag_at">Excluir TAG %s para %s</string>
-    <string name="delete_branch_at">Excluir ramificação %s para %s</string>
-    <string name="published_release_at">Versão publicada %s para %s</string>
-    <string name="opened_issue_at">Problema aberto %d para %s</string>
-    <string name="closed_issue_at">Problema encerrado %d para%s</string>
-    <string name="reopened_issue_at">Problema reaberto %d para %s</string>
-    <string name="edited_issue_at">Problema editado %d para %s</string>
-    <string name="assigned_issue_at">Problema atribuído %d para %s</string>
-    <string name="unassigned_issue_at">Problema não atribuído %d para %s</string>
-    <string name="labeled_issue_at">Problema rotulado %d para %s</string>
-    <string name="unlabeled_issue_at">Problema não rotulado %d para %s</string>
-    <string name="milestoned_issue_at">Problema marcado %d para %s</string>
-    <string name="demilestoned_issue_at">Problema em marcado %d para %s</string>
-    <string name="added_member_to">Membro adicionado %s para %s</string>
-    <string name="deleted_member_at">Membro excluído %s para %s</string>
-    <string name="edited_member_at">Membro editado %s para %s</string>
-    <string name="made_repo_public">Tornou %s público</string>
-    <string name="org_blocked_user">Usuário %s bloqueado da organização %s</string>
-    <string name="org_unblocked_user">Usuário %s desbloqueado da organização %s</string>
-    <string name="created_pull_request_comment_at">Comentário de revisão de solicitação de recebimento criada para %s</string>
-    <string name="deleted_pull_request_comment_at">Comentário de revisão de solicitação de recebimento excluído para %s</string>
-    <string name="edited_pull_request_comment_at">Comentário de revisão da solicitação de recebimento editado para %s</string>
-    <string name="submitted_pull_request_review_at">Revisão de solicitação de recebimento enviada para %s</string>
-    <string name="edited_pull_request_review_at">Revisão da solicitação de recebimento editada para %s</string>
-    <string name="dismissed_pull_request_review_at">Revisão de solicitação de recebimento recusada para %s</string>
+    <string name="created_comment_on_commit" formatted="false">Criado comentário sobre commit em %s</string>
+    <string name="created_comment_on_issue" formatted="false">Comentário criado no problema %d para %s</string>
+    <string name="created_repo" formatted="false">Repositório criado %s</string>
+    <string name="forked_to" formatted="false">Bifurcado %s para %s</string>
+    <string name="starred_repo" formatted="false">Estrelou %s</string>
+    <string name="push_to" formatted="false">Pressione para %s para %s</string>
+    <string name="created_tag_at" formatted="false">TAG criada %s para %s</string>
+    <string name="created_branch_at" formatted="false">Ramificação criada %s para %s</string>
+    <string name="delete_tag_at" formatted="false">Excluir TAG %s para %s</string>
+    <string name="delete_branch_at" formatted="false">Excluir ramificação %s para %s</string>
+    <string name="published_release_at" formatted="false">Versão publicada %s para %s</string>
+    <string name="opened_issue_at" formatted="false">Problema aberto %d para %s</string>
+    <string name="closed_issue_at" formatted="false">Problema encerrado %d para%s</string>
+    <string name="reopened_issue_at" formatted="false">Problema reaberto %d para %s</string>
+    <string name="edited_issue_at" formatted="false">Problema editado %d para %s</string>
+    <string name="assigned_issue_at" formatted="false">Problema atribuído %d para %s</string>
+    <string name="unassigned_issue_at" formatted="false">Problema não atribuído %d para %s</string>
+    <string name="labeled_issue_at" formatted="false">Problema rotulado %d para %s</string>
+    <string name="unlabeled_issue_at" formatted="false">Problema não rotulado %d para %s</string>
+    <string name="milestoned_issue_at" formatted="false">Problema marcado %d para %s</string>
+    <string name="demilestoned_issue_at" formatted="false">Problema em marcado %d para %s</string>
+    <string name="added_member_to" formatted="false">Membro adicionado %s para %s</string>
+    <string name="deleted_member_at" formatted="false">Membro excluído %s para %s</string>
+    <string name="edited_member_at" formatted="false">Membro editado %s para %s</string>
+    <string name="made_repo_public" formatted="false">Tornou %s público</string>
+    <string name="org_blocked_user" formatted="false">Usuário %s bloqueado da organização %s</string>
+    <string name="org_unblocked_user" formatted="false">Usuário %s desbloqueado da organização %s</string>
+    <string name="created_pull_request_comment_at" formatted="false">Comentário de revisão de solicitação de recebimento criada para %s</string>
+    <string name="deleted_pull_request_comment_at" formatted="false">Comentário de revisão de solicitação de recebimento excluído para %s</string>
+    <string name="edited_pull_request_comment_at" formatted="false">Comentário de revisão da solicitação de recebimento editado para %s</string>
+    <string name="submitted_pull_request_review_at" formatted="false">Revisão de solicitação de recebimento enviada para %s</string>
+    <string name="edited_pull_request_review_at" formatted="false">Revisão da solicitação de recebimento editada para %s</string>
+    <string name="dismissed_pull_request_review_at" formatted="false">Revisão de solicitação de recebimento recusada para %s</string>
 
     <string name="undo">Desfazer</string>
     <string name="no_bookmarks">Nenhum marcador</string>

@@ -319,39 +319,39 @@
     <string name="double_click_toolbar_tip">You can double click title to back top in list page.</string>
     <string name="releases_click_tip">You can long click item to view available downloads.</string>
 
-    <string name="created_comment_on_commit">Vytvořen komentář ke commitu v %s</string>
-    <string name="created_comment_on_issue">Vytvořen komentář pro připomínku %d v %s</string>
-    <string name="created_repo">Vytvořen repozitář %s</string>
-    <string name="forked_to">%s forkováno do %s</string>
-    <string name="starred_repo">Označeno %s</string>
-    <string name="push_to">Pushnuto %s v %s</string>
-    <string name="created_tag_at">Vytvořena značka %s v %s</string>
-    <string name="created_branch_at">Vytvořena větev %s v %s</string>
-    <string name="delete_tag_at">Smazána značka %s v %s</string>
-    <string name="delete_branch_at">Vytvořena větev %s v %s</string>
-    <string name="published_release_at">Vydáno %s v %s</string>
-    <string name="opened_issue_at">Otevřena připomínka %d v %s</string>
-    <string name="closed_issue_at">Uzavřená připomínka %d v %s</string>
-    <string name="reopened_issue_at">Znovu otevřena připomínka %d v %s</string>
-    <string name="edited_issue_at">Upravena připomínka %d v %s</string>
-    <string name="assigned_issue_at">Přidělena připomínka %d v %s</string>
-    <string name="unassigned_issue_at">Odebrána připomínka %d v %s</string>
-    <string name="labeled_issue_at">Označena připomínka %d v %s</string>
-    <string name="unlabeled_issue_at">Odznačena připomínka %d v %s</string>
-    <string name="milestoned_issue_at">Připomínka %d přidána k milníku %s</string>
-    <string name="demilestoned_issue_at">Připomínka %d přidána od milníku %s</string>
-    <string name="added_member_to">Přidán člen %s do %s</string>
-    <string name="deleted_member_at">Smazán člen %s v %s</string>
-    <string name="edited_member_at">Upraveno členství %s v %s</string>
-    <string name="made_repo_public">%s je veřejné</string>
-    <string name="org_blocked_user">Organizace %s zablokovala %s</string>
-    <string name="org_unblocked_user">Organizace %s odblokovala %s</string>
-    <string name="created_pull_request_comment_at">Created pull request review comment at %s</string>
-    <string name="deleted_pull_request_comment_at">Deleted pull request review comment at %s</string>
-    <string name="edited_pull_request_comment_at">Upraven komentář k pull requestu v %s</string>
-    <string name="submitted_pull_request_review_at">Submitted pull request review at %s</string>
-    <string name="edited_pull_request_review_at">Edited pull request review at %s</string>
-    <string name="dismissed_pull_request_review_at">Dismissed pull request review at %s</string>
+    <string name="created_comment_on_commit" formatted="false">Vytvořen komentář ke commitu v %s</string>
+    <string name="created_comment_on_issue" formatted="false">Vytvořen komentář pro připomínku %d v %s</string>
+    <string name="created_repo" formatted="false">Vytvořen repozitář %s</string>
+    <string name="forked_to" formatted="false">%s forkováno do %s</string>
+    <string name="starred_repo" formatted="false">Označeno %s</string>
+    <string name="push_to" formatted="false">Pushnuto %s v %s</string>
+    <string name="created_tag_at" formatted="false">Vytvořena značka %s v %s</string>
+    <string name="created_branch_at" formatted="false">Vytvořena větev %s v %s</string>
+    <string name="delete_tag_at" formatted="false">Smazána značka %s v %s</string>
+    <string name="delete_branch_at" formatted="false">Vytvořena větev %s v %s</string>
+    <string name="published_release_at" formatted="false">Vydáno %s v %s</string>
+    <string name="opened_issue_at" formatted="false">Otevřena připomínka %d v %s</string>
+    <string name="closed_issue_at" formatted="false">Uzavřená připomínka %d v %s</string>
+    <string name="reopened_issue_at" formatted="false">Znovu otevřena připomínka %d v %s</string>
+    <string name="edited_issue_at" formatted="false">Upravena připomínka %d v %s</string>
+    <string name="assigned_issue_at" formatted="false">Přidělena připomínka %d v %s</string>
+    <string name="unassigned_issue_at" formatted="false">Odebrána připomínka %d v %s</string>
+    <string name="labeled_issue_at" formatted="false">Označena připomínka %d v %s</string>
+    <string name="unlabeled_issue_at" formatted="false">Odznačena připomínka %d v %s</string>
+    <string name="milestoned_issue_at" formatted="false">Připomínka %d přidána k milníku %s</string>
+    <string name="demilestoned_issue_at" formatted="false">Připomínka %d přidána od milníku %s</string>
+    <string name="added_member_to" formatted="false">Přidán člen %s do %s</string>
+    <string name="deleted_member_at" formatted="false">Smazán člen %s v %s</string>
+    <string name="edited_member_at" formatted="false">Upraveno členství %s v %s</string>
+    <string name="made_repo_public" formatted="false">%s je veřejné</string>
+    <string name="org_blocked_user" formatted="false">Organizace %s zablokovala %s</string>
+    <string name="org_unblocked_user" formatted="false">Organizace %s odblokovala %s</string>
+    <string name="created_pull_request_comment_at" formatted="false">Created pull request review comment at %s</string>
+    <string name="deleted_pull_request_comment_at" formatted="false">Deleted pull request review comment at %s</string>
+    <string name="edited_pull_request_comment_at" formatted="false">Upraven komentář k pull requestu v %s</string>
+    <string name="submitted_pull_request_review_at" formatted="false">Submitted pull request review at %s</string>
+    <string name="edited_pull_request_review_at" formatted="false">Edited pull request review at %s</string>
+    <string name="dismissed_pull_request_review_at" formatted="false">Dismissed pull request review at %s</string>
 
     <string name="undo">Zpět</string>
     <string name="no_bookmarks">Žádné záložky</string>

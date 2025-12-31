@@ -2,13 +2,11 @@
 buildscript {
     repositories {
         maven { url 'https://maven.aliyun.com/repository/google' }
-        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        mavenCentral()
         google()
-        jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.4.2'
-        classpath 'com.novoda:gradle-build-properties-plugin:0.3'
+        classpath 'com.android.tools.build:gradle:8.1.0'
     }
 }
 
@@ -16,9 +14,8 @@ allprojects {
     repositories {
         maven { url 'https://maven.aliyun.com/repository/public' }
         maven { url 'https://maven.aliyun.com/repository/google' }
-        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        mavenCentral()
         google()
-        jcenter()
         maven { url "https://jitpack.io" }
         flatDir {
             dirs 'libs'

@@ -349,39 +349,39 @@
     <string name="double_click_toolbar_tip">Druk tweemal op een titel om terug naar de bovenkant te gaan.</string>
     <string name="releases_click_tip">Houd een item ingedrukt om beschikbare downloads te tonen.</string>
 
-    <string name="created_comment_on_commit">Reactie geplaatst bij commit in %s</string>
-    <string name="created_comment_on_issue">Reactie geplaatst bij issue %d in %s</string>
-    <string name="created_repo">Repo \'%s\' aangemaakt</string>
-    <string name="forked_to">\'%s\' geforkt naar \'%s\'</string>
-    <string name="starred_repo">\'%s\' is toegevoegd aan je favorieten</string>
-    <string name="push_to">Pushen naar \'%s\' op \'%s\'</string>
-    <string name="created_tag_at">Label gemaakt bij \'%s\' op \'%s\'</string>
-    <string name="created_branch_at">Tak \'%s\' gemaakt op \'%s\'</string>
-    <string name="delete_tag_at">Label \'%s\' weggehaald bij \'%s\'</string>
-    <string name="delete_branch_at">Tak \'%s\' verwijderen op \'%s\'</string>
-    <string name="published_release_at">Uitgave \'%s\' gepubliceerd op \'%s\'</string>
-    <string name="opened_issue_at">Issue \'%d\' geopend in \'%s\'</string>
-    <string name="closed_issue_at">Issue \'%d\' gesloten in \'%s\'</string>
-    <string name="reopened_issue_at">Issue \'%d\' heropend in \'%s\'</string>
-    <string name="edited_issue_at">Issue \'%d\' aangepast in \'%s\'</string>
-    <string name="assigned_issue_at">Issue \'%d\' toegewezen in %s</string>
-    <string name="unassigned_issue_at">Issue \'%d\' niet meer toegewezen in \'%s\'</string>
-    <string name="labeled_issue_at">Issue \'%d\' gelabeld in \'%s\'</string>
-    <string name="unlabeled_issue_at">Label weggehaald bij issue \'%d\' in \'%s\'</string>
-    <string name="milestoned_issue_at">Mijlpaal toegevoegd aan issue \'%d\' in \'%s\'</string>
-    <string name="demilestoned_issue_at">Mijlpaal weggehaald bij issue \'%d\' in \'%s\'</string>
-    <string name="added_member_to">Deelnemer \'%s\' toegevoegd aan \'%s\'</string>
-    <string name="deleted_member_at">Deelnemer \'%s\' verwijderd uit \'%s\'</string>
-    <string name="edited_member_at">Deelnemer \'%s\' aangepast in \'%s\'</string>
-    <string name="made_repo_public">\'%s\' openbaargemaakt</string>
-    <string name="org_blocked_user">Org. \'%s\' heeft gebruiker \'%s\' geblokkeerd</string>
-    <string name="org_unblocked_user">Org. \'%s\' heeft gebruiker \'%s\' gedeblokkeerd</string>
-    <string name="created_pull_request_comment_at">Reactie toegevoegd aan pull request \'%s\'</string>
-    <string name="deleted_pull_request_comment_at">Reactie verwijderd van pull request \'%s\'</string>
-    <string name="edited_pull_request_comment_at">Reactie aangepast bij pull request \'%s\'</string>
-    <string name="submitted_pull_request_review_at">Pull request-beoordeling toegevoegd aan \'%s\'</string>
-    <string name="edited_pull_request_review_at">Pull request-beoordeling aangepast bij \'%s\'</string>
-    <string name="dismissed_pull_request_review_at">Pull request-beoordeling verwijderd van \'%s\'</string>
+    <string name="created_comment_on_commit" formatted="false">Reactie geplaatst bij commit in %s</string>
+    <string name="created_comment_on_issue" formatted="false">Reactie geplaatst bij issue %d in %s</string>
+    <string name="created_repo" formatted="false">Repo \'%s\' aangemaakt</string>
+    <string name="forked_to" formatted="false">\'%s\' geforkt naar \'%s\'</string>
+    <string name="starred_repo" formatted="false">\'%s\' is toegevoegd aan je favorieten</string>
+    <string name="push_to" formatted="false">Pushen naar \'%s\' op \'%s\'</string>
+    <string name="created_tag_at" formatted="false">Label gemaakt bij \'%s\' op \'%s\'</string>
+    <string name="created_branch_at" formatted="false">Tak \'%s\' gemaakt op \'%s\'</string>
+    <string name="delete_tag_at" formatted="false">Label \'%s\' weggehaald bij \'%s\'</string>
+    <string name="delete_branch_at" formatted="false">Tak \'%s\' verwijderen op \'%s\'</string>
+    <string name="published_release_at" formatted="false">Uitgave \'%s\' gepubliceerd op \'%s\'</string>
+    <string name="opened_issue_at" formatted="false">Issue \'%d\' geopend in \'%s\'</string>
+    <string name="closed_issue_at" formatted="false">Issue \'%d\' gesloten in \'%s\'</string>
+    <string name="reopened_issue_at" formatted="false">Issue \'%d\' heropend in \'%s\'</string>
+    <string name="edited_issue_at" formatted="false">Issue \'%d\' aangepast in \'%s\'</string>
+    <string name="assigned_issue_at" formatted="false">Issue \'%d\' toegewezen in %s</string>
+    <string name="unassigned_issue_at" formatted="false">Issue \'%d\' niet meer toegewezen in \'%s\'</string>
+    <string name="labeled_issue_at" formatted="false">Issue \'%d\' gelabeld in \'%s\'</string>
+    <string name="unlabeled_issue_at" formatted="false">Label weggehaald bij issue \'%d\' in \'%s\'</string>
+    <string name="milestoned_issue_at" formatted="false">Mijlpaal toegevoegd aan issue \'%d\' in \'%s\'</string>
+    <string name="demilestoned_issue_at" formatted="false">Mijlpaal weggehaald bij issue \'%d\' in \'%s\'</string>
+    <string name="added_member_to" formatted="false">Deelnemer \'%s\' toegevoegd aan \'%s\'</string>
+    <string name="deleted_member_at" formatted="false">Deelnemer \'%s\' verwijderd uit \'%s\'</string>
+    <string name="edited_member_at" formatted="false">Deelnemer \'%s\' aangepast in \'%s\'</string>
+    <string name="made_repo_public" formatted="false">\'%s\' openbaargemaakt</string>
+    <string name="org_blocked_user" formatted="false">Org. \'%s\' heeft gebruiker \'%s\' geblokkeerd</string>
+    <string name="org_unblocked_user" formatted="false">Org. \'%s\' heeft gebruiker \'%s\' gedeblokkeerd</string>
+    <string name="created_pull_request_comment_at" formatted="false">Reactie toegevoegd aan pull request \'%s\'</string>
+    <string name="deleted_pull_request_comment_at" formatted="false">Reactie verwijderd van pull request \'%s\'</string>
+    <string name="edited_pull_request_comment_at" formatted="false">Reactie aangepast bij pull request \'%s\'</string>
+    <string name="submitted_pull_request_review_at" formatted="false">Pull request-beoordeling toegevoegd aan \'%s\'</string>
+    <string name="edited_pull_request_review_at" formatted="false">Pull request-beoordeling aangepast bij \'%s\'</string>
+    <string name="dismissed_pull_request_review_at" formatted="false">Pull request-beoordeling verwijderd van \'%s\'</string>
 
     <string name="undo">Ongedaan maken</string>
     <string name="no_bookmarks">Geen bladwijzers</string>

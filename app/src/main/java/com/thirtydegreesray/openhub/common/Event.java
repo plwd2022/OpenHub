@@ -1,5 +1,3 @@
-
-
 package com.thirtydegreesray.openhub.common;
 
 import com.thirtydegreesray.openhub.mvp.model.Repository;
@@ -13,7 +11,7 @@ import com.thirtydegreesray.openhub.mvp.model.SearchModel;
 public class Event {
 
     /**
-     * 网络状态改变事�?
+     * 网络状态改变事件
      */
     public static class NetChangedEvent{
         public int preNetStatus;

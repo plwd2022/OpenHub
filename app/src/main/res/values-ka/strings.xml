@@ -350,39 +350,39 @@
     <string name="double_click_toolbar_tip">შეგიძლიათ ორმაგად დააჭიროთ სათაურს გვერდის ზემოთ დასაბრუნებლად.</string>
     <string name="releases_click_tip">შეგიძლიათ დააყოვნოთ განჯარა გადმოსაწერ ოფციების გამოსაჩენად.</string>
 
-    <string name="created_comment_on_commit">კომენტარი შექმნილია კომიტ %s-ში</string>
-    <string name="created_comment_on_issue">კომენტარი შექმნილია %d პრობლემაზე %s-ში</string>
-    <string name="created_repo">შექმნილია %s რეპოზიტორია</string>
-    <string name="forked_to">%s დაფორკდა %s-ად</string>
-    <string name="starred_repo">%s დამატებულია ფავორიტებში</string>
-    <string name="push_to">გაიგზავნა %s-ში %s-ზე</string>
-    <string name="created_tag_at">შექმნილია %s ტაგი %s-ში</string>
-    <string name="created_branch_at">შექმნილია %s ბრენჩი %s-ში</string>
-    <string name="delete_tag_at">ტეგი %s წაშლილია %s-ში</string>
-    <string name="delete_branch_at">ბრენჩი %s წაშლილია %s-ში</string>
-    <string name="published_release_at">გამოქვეყნდა %s რელიზი %s-ში</string>
-    <string name="opened_issue_at">გაიხსნა %d პრობლემა %s-ში</string>
-    <string name="closed_issue_at">დაიხურა %d პრობლემა %s-ში</string>
-    <string name="reopened_issue_at">თავიდან გაიხსნა %d პრობლემა %s-ში</string>
-    <string name="edited_issue_at">დარედაქტირდა %d პრობლემა %s-ში</string>
-    <string name="assigned_issue_at">შეთავსდა %d პრობლემა %s-ში</string>
-    <string name="unassigned_issue_at">განთავსდა %d პრობლემა %s-ში</string>
-    <string name="labeled_issue_at">იარლიყი მიეცა %d პრობლემას %s-ში</string>
-    <string name="unlabeled_issue_at">იარლიყი მოეხსნა %d პრობლემას %s-ში</string>
-    <string name="milestoned_issue_at">დაარქივდა %d პრობლემა %s-ში</string>
-    <string name="demilestoned_issue_at">არქივი მოეხსნა %d პრობლემას %s-ში</string>
-    <string name="added_member_to">დაამატა %s მომხმარებელი %s-ში</string>
-    <string name="deleted_member_at">წაშალა %s მომხმარებელი %s-ში</string>
-    <string name="edited_member_at">შეცვალა %s მომხმარებელი %s-ში</string>
-    <string name="made_repo_public">%s გახდა საჯარო</string>
-    <string name="org_blocked_user">%s-მა დაბლოკა მომმარებელი %s</string>
-    <string name="org_unblocked_user">%s-მა განბლოკა მომხმარებელი %s</string>
-    <string name="created_pull_request_comment_at">დატოვა კომენტარი გადახედვის მოთხვნაზე %s-ში</string>
-    <string name="deleted_pull_request_comment_at">წაშალა კომენტარი გადახედვის მოთხვნაზე %s-ში</string>
-    <string name="edited_pull_request_comment_at">შეცვალა კომენტარი გადახედვის მოთხვნაზე %s-ში</string>
-    <string name="submitted_pull_request_review_at">დაადასტურა გადახედვის მოთხვნა %s-ში</string>
-    <string name="edited_pull_request_review_at">შეცვალა გადახედვის მოთხვნა %s-ში</string>
-    <string name="dismissed_pull_request_review_at">დააიგნორა გადახედვის მოთხვნა %s-ში</string>
+    <string name="created_comment_on_commit" formatted="false">კომენტარი შექმნილია კომიტ %s-ში</string>
+    <string name="created_comment_on_issue" formatted="false">კომენტარი შექმნილია %d პრობლემაზე %s-ში</string>
+    <string name="created_repo" formatted="false">შექმნილია %s რეპოზიტორია</string>
+    <string name="forked_to" formatted="false">%s დაფორკდა %s-ად</string>
+    <string name="starred_repo" formatted="false">%s დამატებულია ფავორიტებში</string>
+    <string name="push_to" formatted="false">გაიგზავნა %s-ში %s-ზე</string>
+    <string name="created_tag_at" formatted="false">შექმნილია %s ტაგი %s-ში</string>
+    <string name="created_branch_at" formatted="false">შექმნილია %s ბრენჩი %s-ში</string>
+    <string name="delete_tag_at" formatted="false">ტეგი %s წაშლილია %s-ში</string>
+    <string name="delete_branch_at" formatted="false">ბრენჩი %s წაშლილია %s-ში</string>
+    <string name="published_release_at" formatted="false">გამოქვეყნდა %s რელიზი %s-ში</string>
+    <string name="opened_issue_at" formatted="false">გაიხსნა %d პრობლემა %s-ში</string>
+    <string name="closed_issue_at" formatted="false">დაიხურა %d პრობლემა %s-ში</string>
+    <string name="reopened_issue_at" formatted="false">თავიდან გაიხსნა %d პრობლემა %s-ში</string>
+    <string name="edited_issue_at" formatted="false">დარედაქტირდა %d პრობლემა %s-ში</string>
+    <string name="assigned_issue_at" formatted="false">შეთავსდა %d პრობლემა %s-ში</string>
+    <string name="unassigned_issue_at" formatted="false">განთავსდა %d პრობლემა %s-ში</string>
+    <string name="labeled_issue_at" formatted="false">იარლიყი მიეცა %d პრობლემას %s-ში</string>
+    <string name="unlabeled_issue_at" formatted="false">იარლიყი მოეხსნა %d პრობლემას %s-ში</string>
+    <string name="milestoned_issue_at" formatted="false">დაარქივდა %d პრობლემა %s-ში</string>
+    <string name="demilestoned_issue_at" formatted="false">არქივი მოეხსნა %d პრობლემას %s-ში</string>
+    <string name="added_member_to" formatted="false">დაამატა %s მომხმარებელი %s-ში</string>
+    <string name="deleted_member_at" formatted="false">წაშალა %s მომხმარებელი %s-ში</string>
+    <string name="edited_member_at" formatted="false">შეცვალა %s მომხმარებელი %s-ში</string>
+    <string name="made_repo_public" formatted="false">%s გახდა საჯარო</string>
+    <string name="org_blocked_user" formatted="false">%s-მა დაბლოკა მომმარებელი %s</string>
+    <string name="org_unblocked_user" formatted="false">%s-მა განბლოკა მომხმარებელი %s</string>
+    <string name="created_pull_request_comment_at" formatted="false">დატოვა კომენტარი გადახედვის მოთხვნაზე %s-ში</string>
+    <string name="deleted_pull_request_comment_at" formatted="false">წაშალა კომენტარი გადახედვის მოთხვნაზე %s-ში</string>
+    <string name="edited_pull_request_comment_at" formatted="false">შეცვალა კომენტარი გადახედვის მოთხვნაზე %s-ში</string>
+    <string name="submitted_pull_request_review_at" formatted="false">დაადასტურა გადახედვის მოთხვნა %s-ში</string>
+    <string name="edited_pull_request_review_at" formatted="false">შეცვალა გადახედვის მოთხვნა %s-ში</string>
+    <string name="dismissed_pull_request_review_at" formatted="false">დააიგნორა გადახედვის მოთხვნა %s-ში</string>
 
     <string name="undo">გაუქმება</string>
     <string name="no_bookmarks">არ არის სანიშნეები</string>

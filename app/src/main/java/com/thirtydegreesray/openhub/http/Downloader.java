@@ -81,7 +81,7 @@ public class Downloader {
     private void start() {
 
         DownloadManager.Request request = new DownloadManager.Request(Uri.parse(url));
-        //移动网络情况下是否允许漫�?
+        //移动网络情况下是否允许漫游
         request.setAllowedOverRoaming(false);
 
         request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);

@@ -273,39 +273,39 @@
     <string name="double_click_toolbar_tip">在清單頁面，您可以按兩下標題來返回頂部。</string>
     <string name="releases_click_tip">您可以長按清單以查看可以下載資源。</string>
 
-    <string name="created_comment_on_commit">發表留言在 %s 的提交中</string>
-    <string name="created_comment_on_issue">發表留言在問題 %d %s</string>
-    <string name="created_repo">新增 %s</string>
-    <string name="forked_to">從 %s 建立分支 %s </string>
-    <string name="starred_repo">星號 %s</string>
-    <string name="push_to">提交到分支 %s 在 %s</string>
-    <string name="created_tag_at">新增標籤 %s 在 %s</string>
-    <string name="created_branch_at">建立分支 %s 在 %s</string>
-    <string name="delete_tag_at">刪除標籤 %s 在 %s</string>
-    <string name="delete_branch_at">刪除分支 %s 在 %s</string>
-    <string name="published_release_at">發布版本 %s 在 %s</string>
-    <string name="opened_issue_at">開啟問題 %d 在 %s</string>
-    <string name="closed_issue_at">關閉問題 %d 在 %s</string>
-    <string name="reopened_issue_at">重新開放問題 %d 在 %s</string>
-    <string name="edited_issue_at">編輯問題 %d 在 %s</string>
-    <string name="assigned_issue_at">指派問題 %d 在 %s</string>
-    <string name="unassigned_issue_at">指派問題取消 %d 在 %s</string>
-    <string name="labeled_issue_at">標記問題 %d 在 %s</string>
-    <string name="unlabeled_issue_at">解除標記 問題 %d 在 %s</string>
-    <string name="milestoned_issue_at">設置里程碑 问题 %d 在 %s</string>
-    <string name="demilestoned_issue_at">取消设置里程碑 问题 %d 在 %s</string>
-    <string name="added_member_to">新增成員 %s 到 %s</string>
-    <string name="deleted_member_at">删除成员 %s 在 %s</string>
-    <string name="edited_member_at">編輯成員 %s 在 %s</string>
-    <string name="made_repo_public">公開 %s</string>
-    <string name="org_blocked_user">組織 %s 封鎖使用者 %s</string>
-    <string name="org_unblocked_user">組織 %s 取消使用者封鎖 %s</string>
-    <string name="created_pull_request_comment_at">新增拉取請求審查留言於 %s</string>
-    <string name="deleted_pull_request_comment_at">刪除拉取請求審查留言於 %s</string>
-    <string name="edited_pull_request_comment_at">編輯拉取請求審查留言於 %s</string>
-    <string name="submitted_pull_request_review_at">提交拉取請求審查於 %s</string>
-    <string name="edited_pull_request_review_at">編輯拉取請求審查在 %s</string>
-    <string name="dismissed_pull_request_review_at">取消拉取请求审查於 %s</string>
+    <string name="created_comment_on_commit" formatted="false">發表留言在 %s 的提交中</string>
+    <string name="created_comment_on_issue" formatted="false">發表留言在問題 %d %s</string>
+    <string name="created_repo" formatted="false">新增 %s</string>
+    <string name="forked_to" formatted="false">從 %s 建立分支 %s </string>
+    <string name="starred_repo" formatted="false">星號 %s</string>
+    <string name="push_to" formatted="false">提交到分支 %s 在 %s</string>
+    <string name="created_tag_at" formatted="false">新增標籤 %s 在 %s</string>
+    <string name="created_branch_at" formatted="false">建立分支 %s 在 %s</string>
+    <string name="delete_tag_at" formatted="false">刪除標籤 %s 在 %s</string>
+    <string name="delete_branch_at" formatted="false">刪除分支 %s 在 %s</string>
+    <string name="published_release_at" formatted="false">發布版本 %s 在 %s</string>
+    <string name="opened_issue_at" formatted="false">開啟問題 %d 在 %s</string>
+    <string name="closed_issue_at" formatted="false">關閉問題 %d 在 %s</string>
+    <string name="reopened_issue_at" formatted="false">重新開放問題 %d 在 %s</string>
+    <string name="edited_issue_at" formatted="false">編輯問題 %d 在 %s</string>
+    <string name="assigned_issue_at" formatted="false">指派問題 %d 在 %s</string>
+    <string name="unassigned_issue_at" formatted="false">指派問題取消 %d 在 %s</string>
+    <string name="labeled_issue_at" formatted="false">標記問題 %d 在 %s</string>
+    <string name="unlabeled_issue_at" formatted="false">解除標記 問題 %d 在 %s</string>
+    <string name="milestoned_issue_at" formatted="false">設置里程碑 问题 %d 在 %s</string>
+    <string name="demilestoned_issue_at" formatted="false">取消设置里程碑 问题 %d 在 %s</string>
+    <string name="added_member_to" formatted="false">新增成員 %s 到 %s</string>
+    <string name="deleted_member_at" formatted="false">删除成员 %s 在 %s</string>
+    <string name="edited_member_at" formatted="false">編輯成員 %s 在 %s</string>
+    <string name="made_repo_public" formatted="false">公開 %s</string>
+    <string name="org_blocked_user" formatted="false">組織 %s 封鎖使用者 %s</string>
+    <string name="org_unblocked_user" formatted="false">組織 %s 取消使用者封鎖 %s</string>
+    <string name="created_pull_request_comment_at" formatted="false">新增拉取請求審查留言於 %s</string>
+    <string name="deleted_pull_request_comment_at" formatted="false">刪除拉取請求審查留言於 %s</string>
+    <string name="edited_pull_request_comment_at" formatted="false">編輯拉取請求審查留言於 %s</string>
+    <string name="submitted_pull_request_review_at" formatted="false">提交拉取請求審查於 %s</string>
+    <string name="edited_pull_request_review_at" formatted="false">編輯拉取請求審查在 %s</string>
+    <string name="dismissed_pull_request_review_at" formatted="false">取消拉取请求审查於 %s</string>
     <string name="undo">取消</string>
     <string name="no_bookmarks">沒有書籤</string>
     <string name="no_trace">無追蹤</string>

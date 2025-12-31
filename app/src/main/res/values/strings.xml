@@ -350,39 +350,39 @@
     <string name="double_click_toolbar_tip">You can double click title to back top in list page.</string>
     <string name="releases_click_tip">You can long click item to view available downloads.</string>
 
-    <string name="created_comment_on_commit">Created comment on commit in %s</string>
-    <string name="created_comment_on_issue">Created comment on issue %d in %s</string>
-    <string name="created_repo">Created repository %s</string>
-    <string name="forked_to">Forked %s to %s</string>
-    <string name="starred_repo">Starred %s</string>
-    <string name="push_to">Push to %s at %s</string>
-    <string name="created_tag_at">Created tag %s at %s</string>
-    <string name="created_branch_at">Created branch %s at %s</string>
-    <string name="delete_tag_at">Delete tag %s at %s</string>
-    <string name="delete_branch_at">Delete branch %s at %s</string>
-    <string name="published_release_at">Published release %s at %s</string>
-    <string name="opened_issue_at">Opened issue %d in %s</string>
-    <string name="closed_issue_at">Closed issue %d in %s</string>
-    <string name="reopened_issue_at">Reopened issue %d in %s</string>
-    <string name="edited_issue_at">Edited issue %d in %s</string>
-    <string name="assigned_issue_at">Assigned issue %d in %s</string>
-    <string name="unassigned_issue_at">Unassigned issue %d in %s</string>
-    <string name="labeled_issue_at">Labeled issue %d in %s</string>
-    <string name="unlabeled_issue_at">Unlabeled issue %d in %s</string>
-    <string name="milestoned_issue_at">Milestoned issue %d in %s</string>
-    <string name="demilestoned_issue_at">Demilestoned issue %d in %s</string>
-    <string name="added_member_to">Added member %s to %s</string>
-    <string name="deleted_member_at">Deleted member %s at %s</string>
-    <string name="edited_member_at">Edited member %s at %s</string>
-    <string name="made_repo_public">Made %s public</string>
-    <string name="org_blocked_user">Org %s blocked user %s</string>
-    <string name="org_unblocked_user">Org %s unblocked user %s</string>
-    <string name="created_pull_request_comment_at">Created pull request review comment at %s</string>
-    <string name="deleted_pull_request_comment_at">Deleted pull request review comment at %s</string>
-    <string name="edited_pull_request_comment_at">Edited pull request review comment at %s</string>
-    <string name="submitted_pull_request_review_at">Submitted pull request review at %s</string>
-    <string name="edited_pull_request_review_at">Edited pull request review at %s</string>
-    <string name="dismissed_pull_request_review_at">Dismissed pull request review at %s</string>
+    <string name="created_comment_on_commit" formatted="false">Created comment on commit in %s</string>
+    <string name="created_comment_on_issue" formatted="false">Created comment on issue %d in %s</string>
+    <string name="created_repo" formatted="false">Created repository %s</string>
+    <string name="forked_to" formatted="false">Forked %s to %s</string>
+    <string name="starred_repo" formatted="false">Starred %s</string>
+    <string name="push_to" formatted="false">Push to %s at %s</string>
+    <string name="created_tag_at" formatted="false">Created tag %s at %s</string>
+    <string name="created_branch_at" formatted="false">Created branch %s at %s</string>
+    <string name="delete_tag_at" formatted="false">Delete tag %s at %s</string>
+    <string name="delete_branch_at" formatted="false">Delete branch %s at %s</string>
+    <string name="published_release_at" formatted="false">Published release %s at %s</string>
+    <string name="opened_issue_at" formatted="false">Opened issue %d in %s</string>
+    <string name="closed_issue_at" formatted="false">Closed issue %d in %s</string>
+    <string name="reopened_issue_at" formatted="false">Reopened issue %d in %s</string>
+    <string name="edited_issue_at" formatted="false">Edited issue %d in %s</string>
+    <string name="assigned_issue_at" formatted="false">Assigned issue %d in %s</string>
+    <string name="unassigned_issue_at" formatted="false">Unassigned issue %d in %s</string>
+    <string name="labeled_issue_at" formatted="false">Labeled issue %d in %s</string>
+    <string name="unlabeled_issue_at" formatted="false">Unlabeled issue %d in %s</string>
+    <string name="milestoned_issue_at" formatted="false">Milestoned issue %d in %s</string>
+    <string name="demilestoned_issue_at" formatted="false">Demilestoned issue %d in %s</string>
+    <string name="added_member_to" formatted="false">Added member %s to %s</string>
+    <string name="deleted_member_at" formatted="false">Deleted member %s at %s</string>
+    <string name="edited_member_at" formatted="false">Edited member %s at %s</string>
+    <string name="made_repo_public" formatted="false">Made %s public</string>
+    <string name="org_blocked_user" formatted="false">Org %s blocked user %s</string>
+    <string name="org_unblocked_user" formatted="false">Org %s unblocked user %s</string>
+    <string name="created_pull_request_comment_at" formatted="false">Created pull request review comment at %s</string>
+    <string name="deleted_pull_request_comment_at" formatted="false">Deleted pull request review comment at %s</string>
+    <string name="edited_pull_request_comment_at" formatted="false">Edited pull request review comment at %s</string>
+    <string name="submitted_pull_request_review_at" formatted="false">Submitted pull request review at %s</string>
+    <string name="edited_pull_request_review_at" formatted="false">Edited pull request review at %s</string>
+    <string name="dismissed_pull_request_review_at" formatted="false">Dismissed pull request review at %s</string>
 
     <string name="undo">Undo</string>
     <string name="no_bookmarks">No bookmarks</string>

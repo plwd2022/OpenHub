@@ -235,7 +235,7 @@
     <string name="share_to_friends">Compártelo s tus amigos</string>
     <string name="feedback">Devoluciones</string>
     <string name="openhub_wishes">Deseos de OpenHub</string>
-    <string name="star_wishes">Hola%s, hoy es tu%dth día en OpenHub, gracias por tu uso, me esforzaré por convertirme en una aplicación de GitHub más conveniente para ti.  Si puedes empezar a apoyarme, ¡sería increíble!</string>
+    <string name="star_wishes" formatted="false">Hola%s, hoy es tu%dth día en OpenHub, gracias por tu uso, me esforzaré por convertirme en una aplicación de GitHub más conveniente para ti.  Si puedes empezar a apoyarme, ¡sería increíble!</string>
     <string name="star_thanks">¡Gracias por tu apoyo!</string>
     <string name="star_me">Dame un estrella</string>
     <string name="star_next_time">Seguir</string>

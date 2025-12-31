@@ -280,39 +280,39 @@
     </string>
     <string name="double_click_toolbar_tip">두 번 누르면 목록으로 바로 갈 수 있습니다.</string>
     <string name="releases_click_tip">길게 누르면 다운로드 가능한지 확인할 수 있습니다.</string>
-    <string name="created_comment_on_commit">%s의 커밋에 댓글이 달림</string>
-    <string name="created_comment_on_issue">이슈 %d의 댓글이 %s에서 달림</string>
-    <string name="created_repo">리포지토리 %s 생성</string>
-    <string name="forked_to">%s를 %s로 포크함</string>
-    <string name="starred_repo">%s에 스타를 줌</string>
-    <string name="push_to">%s이(가) %s에 푸시됨</string>
-    <string name="created_tag_at">태그 %s이(가) %s에서 생성됨</string>
-    <string name="created_branch_at">브랜치 %s이(가) %s에서 삭제됨</string>
-    <string name="delete_tag_at">태그 %s이(가) %s에서 삭제됨</string>
-    <string name="delete_branch_at">브랜치 %s이(가) %s 리포지토리에서 삭제됨</string>
-    <string name="published_release_at">릴리즈 %s이(가) %s에서 공개됨</string>
-    <string name="opened_issue_at">이슈 %d이(가) %s에서 열림</string>
-    <string name="closed_issue_at">이슈 %d이(가) %s에서 닫힘</string>
-    <string name="reopened_issue_at">이슈 %d이(가) %s에서 다시 열림</string>
-    <string name="edited_issue_at">이슈 %d이(가) %s에서 수정됨</string>
-    <string name="assigned_issue_at">이슈 %d이(가) %s에서 할당됨</string>
-    <string name="unassigned_issue_at">이슈 %d이(가) %s에서 할당 취소됨</string>
-    <string name="labeled_issue_at">이슈 %d이(가) %s에서 라벨됨</string>
-    <string name="unlabeled_issue_at">이슈 %d이(가) %s에서 라벨 취소됨</string>
-    <string name="milestoned_issue_at">이슈 %d이(가) %s에서 마일스톤됨</string>
-    <string name="demilestoned_issue_at">이슈 %d이(가) %s에서 마일스톤 취소됨</string>
-    <string name="added_member_to">맴버 %s이(가) %s에 추가됨</string>
-    <string name="deleted_member_at">맴버 %s이(가) %s에서 삭제됨</string>
-    <string name="edited_member_at">맴버 %s이(가) %s에서 수정됨</string>
-    <string name="made_repo_public">%s 공개하기</string>
-    <string name="org_blocked_user">그룹 %s이(가) 사용자 %s 차단함</string>
-    <string name="org_unblocked_user">그룹 %s이(가) 사용자 %s 차단 취소함</string>
-    <string name="created_pull_request_comment_at">%s에서 풀 리퀘스트 리뷰 댓글 생성됨</string>
-    <string name="deleted_pull_request_comment_at">%s에서 풀 리퀘스트 리뷰 댓글 삭제됨</string>
-    <string name="edited_pull_request_comment_at">%s에서 풀 리퀘스트 리뷰 댓글 수정됨</string>
-    <string name="submitted_pull_request_review_at">%s에서 풀 리퀘스트 리뷰 통과됨</string>
-    <string name="edited_pull_request_review_at">%s에서 풀 리퀘스트 리뷰 수정됨</string>
-    <string name="dismissed_pull_request_review_at">%s에서 풀 리퀘스트 리뷰 거부됨</string>
+    <string name="created_comment_on_commit" formatted="false">%s의 커밋에 댓글이 달림</string>
+    <string name="created_comment_on_issue" formatted="false">이슈 %d의 댓글이 %s에서 달림</string>
+    <string name="created_repo" formatted="false">리포지토리 %s 생성</string>
+    <string name="forked_to" formatted="false">%s를 %s로 포크함</string>
+    <string name="starred_repo" formatted="false">%s에 스타를 줌</string>
+    <string name="push_to" formatted="false">%s이(가) %s에 푸시됨</string>
+    <string name="created_tag_at" formatted="false">태그 %s이(가) %s에서 생성됨</string>
+    <string name="created_branch_at" formatted="false">브랜치 %s이(가) %s에서 삭제됨</string>
+    <string name="delete_tag_at" formatted="false">태그 %s이(가) %s에서 삭제됨</string>
+    <string name="delete_branch_at" formatted="false">브랜치 %s이(가) %s 리포지토리에서 삭제됨</string>
+    <string name="published_release_at" formatted="false">릴리즈 %s이(가) %s에서 공개됨</string>
+    <string name="opened_issue_at" formatted="false">이슈 %d이(가) %s에서 열림</string>
+    <string name="closed_issue_at" formatted="false">이슈 %d이(가) %s에서 닫힘</string>
+    <string name="reopened_issue_at" formatted="false">이슈 %d이(가) %s에서 다시 열림</string>
+    <string name="edited_issue_at" formatted="false">이슈 %d이(가) %s에서 수정됨</string>
+    <string name="assigned_issue_at" formatted="false">이슈 %d이(가) %s에서 할당됨</string>
+    <string name="unassigned_issue_at" formatted="false">이슈 %d이(가) %s에서 할당 취소됨</string>
+    <string name="labeled_issue_at" formatted="false">이슈 %d이(가) %s에서 라벨됨</string>
+    <string name="unlabeled_issue_at" formatted="false">이슈 %d이(가) %s에서 라벨 취소됨</string>
+    <string name="milestoned_issue_at" formatted="false">이슈 %d이(가) %s에서 마일스톤됨</string>
+    <string name="demilestoned_issue_at" formatted="false">이슈 %d이(가) %s에서 마일스톤 취소됨</string>
+    <string name="added_member_to" formatted="false">맴버 %s이(가) %s에 추가됨</string>
+    <string name="deleted_member_at" formatted="false">맴버 %s이(가) %s에서 삭제됨</string>
+    <string name="edited_member_at" formatted="false">맴버 %s이(가) %s에서 수정됨</string>
+    <string name="made_repo_public" formatted="false">%s 공개하기</string>
+    <string name="org_blocked_user" formatted="false">그룹 %s이(가) 사용자 %s 차단함</string>
+    <string name="org_unblocked_user" formatted="false">그룹 %s이(가) 사용자 %s 차단 취소함</string>
+    <string name="created_pull_request_comment_at" formatted="false">%s에서 풀 리퀘스트 리뷰 댓글 생성됨</string>
+    <string name="deleted_pull_request_comment_at" formatted="false">%s에서 풀 리퀘스트 리뷰 댓글 삭제됨</string>
+    <string name="edited_pull_request_comment_at" formatted="false">%s에서 풀 리퀘스트 리뷰 댓글 수정됨</string>
+    <string name="submitted_pull_request_review_at" formatted="false">%s에서 풀 리퀘스트 리뷰 통과됨</string>
+    <string name="edited_pull_request_review_at" formatted="false">%s에서 풀 리퀘스트 리뷰 수정됨</string>
+    <string name="dismissed_pull_request_review_at" formatted="false">%s에서 풀 리퀘스트 리뷰 거부됨</string>
     <string name="undo">되돌리기</string>
     <string name="no_bookmarks">북마크 없음</string>
     <string name="no_trace">추적 없음</string>

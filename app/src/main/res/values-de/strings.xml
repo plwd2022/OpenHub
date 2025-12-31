@@ -350,39 +350,39 @@
     <string name="double_click_toolbar_tip">Sie können auf den Titel doppelklicken, um in der Listenseite nach oben zurückzukehren.</string>
     <string name="releases_click_tip">Durch längeres gedrückt halten auf einen Artikel, können Sie sich die verfügbaren Downloads anzeigen lassen.</string>
 
-    <string name="created_comment_on_commit">Erstellter Kommentar zum Commit in %s</string>
-    <string name="created_comment_on_issue">Erstellter Kommentar zum Thema %d in %s</string>
-    <string name="created_repo">Erstelltes Repository %s</string>
-    <string name="forked_to">Forked %s bis %s</string>
-    <string name="starred_repo">Starred %s</string>
-    <string name="push_to">Push auf %s bei %s</string>
-    <string name="created_tag_at">Erstellter Tag %s bei %s</string>
-    <string name="created_branch_at">Ersteller Branch %s bei %s</string>
-    <string name="delete_tag_at">Gelöschter Tag %s bei %s</string>
-    <string name="delete_branch_at">Gelöschter Branch %s bei %s</string>
-    <string name="published_release_at">Veröffentlichte Version %s bei %s</string>
-    <string name="opened_issue_at">Eröffnetes Problem %d in %s</string>
-    <string name="closed_issue_at">Geschlossenes Problem %d in %s</string>
-    <string name="reopened_issue_at">Erneut geöffnetes Problem %d in %s</string>
-    <string name="edited_issue_at">Bearbeitetes Problem %d in %s</string>
-    <string name="assigned_issue_at">Zugewiesenes Problem %d in %s</string>
-    <string name="unassigned_issue_at">Nicht zugewiesenes Problem %d in %s</string>
-    <string name="labeled_issue_at">Gekennzeichnetes Problem %d in %s</string>
-    <string name="unlabeled_issue_at">Nicht gekennzeichnetes %d in %s</string>
-    <string name="milestoned_issue_at">Milestoned Problem %d in %s</string>
-    <string name="demilestoned_issue_at">Demilestoned Problem %d in %s</string>
-    <string name="added_member_to">Mitglied %s zu %s hinzugefügt</string>
-    <string name="deleted_member_at">Gelöschtes Mitglied %s bei %s</string>
-    <string name="edited_member_at">Bearbeitetes Mitglied %s bei %s</string>
-    <string name="made_repo_public">%s öffentlich gemacht</string>
-    <string name="org_blocked_user">Org. %s hat Nutzer %s gesperrt</string>
-    <string name="org_unblocked_user">Org. %s hat Nutzer %s entsperrt</string>
-    <string name="created_pull_request_comment_at">Erstellter Pull-Request Review-Kommentar bei %s</string>
-    <string name="deleted_pull_request_comment_at">Gelöschter Pull-Request Review-Kommentar bei %s</string>
-    <string name="edited_pull_request_comment_at">Bearbeiteter Pull-Request Review-Kommentar bei %s</string>
-    <string name="submitted_pull_request_review_at">Eingereichte Pull-Request Review-Überprüfung bei %s</string>
-    <string name="edited_pull_request_review_at">Bearbeitete Pull-Request Review-Überprüfung bei %s</string>
-    <string name="dismissed_pull_request_review_at">Entzogene Pull-Request Review-Überprüfung bei %s</string>
+    <string name="created_comment_on_commit" formatted="false">Erstellter Kommentar zum Commit in %s</string>
+    <string name="created_comment_on_issue" formatted="false">Erstellter Kommentar zum Thema %d in %s</string>
+    <string name="created_repo" formatted="false">Erstelltes Repository %s</string>
+    <string name="forked_to" formatted="false">Forked %s bis %s</string>
+    <string name="starred_repo" formatted="false">Starred %s</string>
+    <string name="push_to" formatted="false">Push auf %s bei %s</string>
+    <string name="created_tag_at" formatted="false">Erstellter Tag %s bei %s</string>
+    <string name="created_branch_at" formatted="false">Ersteller Branch %s bei %s</string>
+    <string name="delete_tag_at" formatted="false">Gelöschter Tag %s bei %s</string>
+    <string name="delete_branch_at" formatted="false">Gelöschter Branch %s bei %s</string>
+    <string name="published_release_at" formatted="false">Veröffentlichte Version %s bei %s</string>
+    <string name="opened_issue_at" formatted="false">Eröffnetes Problem %d in %s</string>
+    <string name="closed_issue_at" formatted="false">Geschlossenes Problem %d in %s</string>
+    <string name="reopened_issue_at" formatted="false">Erneut geöffnetes Problem %d in %s</string>
+    <string name="edited_issue_at" formatted="false">Bearbeitetes Problem %d in %s</string>
+    <string name="assigned_issue_at" formatted="false">Zugewiesenes Problem %d in %s</string>
+    <string name="unassigned_issue_at" formatted="false">Nicht zugewiesenes Problem %d in %s</string>
+    <string name="labeled_issue_at" formatted="false">Gekennzeichnetes Problem %d in %s</string>
+    <string name="unlabeled_issue_at" formatted="false">Nicht gekennzeichnetes %d in %s</string>
+    <string name="milestoned_issue_at" formatted="false">Milestoned Problem %d in %s</string>
+    <string name="demilestoned_issue_at" formatted="false">Demilestoned Problem %d in %s</string>
+    <string name="added_member_to" formatted="false">Mitglied %s zu %s hinzugefügt</string>
+    <string name="deleted_member_at" formatted="false">Gelöschtes Mitglied %s bei %s</string>
+    <string name="edited_member_at" formatted="false">Bearbeitetes Mitglied %s bei %s</string>
+    <string name="made_repo_public" formatted="false">%s öffentlich gemacht</string>
+    <string name="org_blocked_user" formatted="false">Org. %s hat Nutzer %s gesperrt</string>
+    <string name="org_unblocked_user" formatted="false">Org. %s hat Nutzer %s entsperrt</string>
+    <string name="created_pull_request_comment_at" formatted="false">Erstellter Pull-Request Review-Kommentar bei %s</string>
+    <string name="deleted_pull_request_comment_at" formatted="false">Gelöschter Pull-Request Review-Kommentar bei %s</string>
+    <string name="edited_pull_request_comment_at" formatted="false">Bearbeiteter Pull-Request Review-Kommentar bei %s</string>
+    <string name="submitted_pull_request_review_at" formatted="false">Eingereichte Pull-Request Review-Überprüfung bei %s</string>
+    <string name="edited_pull_request_review_at" formatted="false">Bearbeitete Pull-Request Review-Überprüfung bei %s</string>
+    <string name="dismissed_pull_request_review_at" formatted="false">Entzogene Pull-Request Review-Überprüfung bei %s</string>
 
     <string name="undo">Rückgängig machen</string>
     <string name="no_bookmarks">Keine Lesezeichen</string>

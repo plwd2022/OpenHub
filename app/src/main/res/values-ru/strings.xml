@@ -322,39 +322,39 @@
     <string name="double_click_toolbar_tip">Двойным нажатием на название можно перейти к началу страницы.</string>
     <string name="releases_click_tip">Длинное нажатие на релиз открывает список доступных загрузок.</string>
 
-    <string name="created_comment_on_commit">Создан комментарий в правке %s</string>
-    <string name="created_comment_on_issue">Создан комментарий в проблеме %d в %s</string>
-    <string name="created_repo">Создан репозиторий %s</string>
-    <string name="forked_to">Ответвлен %s к %s</string>
-    <string name="starred_repo">Добавлено в избранное %s</string>
-    <string name="push_to">Изменено %s в %s</string>
-    <string name="created_tag_at">Создан тег %s на %s</string>
-    <string name="created_branch_at">Создана ветвь %s на %s</string>
-    <string name="delete_tag_at">Удалён тег %s на %s</string>
-    <string name="delete_branch_at">Удалена ветвь %s на %s</string>
-    <string name="published_release_at">Опубликован релиз %s в %s</string>
-    <string name="opened_issue_at">Открыта проблема %d в %s</string>
-    <string name="closed_issue_at">Открыта проблема %d в %s</string>
-    <string name="reopened_issue_at">Повторно открыта проблема %d в %s</string>
-    <string name="edited_issue_at">Отредактирована проблема %d в %s</string>
-    <string name="assigned_issue_at">Назначена проблема %d в %s</string>
-    <string name="unassigned_issue_at">Удалено назначение проблемы %d в %s</string>
-    <string name="labeled_issue_at">Создана этикетка проблемы %d в %s</string>
-    <string name="unlabeled_issue_at">Удалена этикетка проблемы %d в %s</string>
-    <string name="milestoned_issue_at">Milestoned issue %d в %s</string>
-    <string name="demilestoned_issue_at">Demilestoned issue %d в %s</string>
-    <string name="added_member_to">Добавлен член %s в %s</string>
-    <string name="deleted_member_at">Удалён член %s в %s</string>
-    <string name="edited_member_at">Отредактирован член %s в %s</string>
-    <string name="made_repo_public">Сделано %s публичным</string>
-    <string name="org_blocked_user">Организация %s заблокировала пользователя %s</string>
-    <string name="org_unblocked_user">Организация %s разблокировала пользователя %s</string>
-    <string name="created_pull_request_comment_at">Создан комментарий к запросу на объединение в %s</string>
-    <string name="deleted_pull_request_comment_at">Удалён комментарий к запросу на объединение в %s</string>
-    <string name="edited_pull_request_comment_at">Имзенён комментарий к запросу на объединение в %s</string>
-    <string name="submitted_pull_request_review_at">Послан запрос на рассмотр запроса на объединение в %s</string>
-    <string name="edited_pull_request_review_at">Изменён запрос на рассмотр запроса на объединение в %s</string>
-    <string name="dismissed_pull_request_review_at">Отказано в запросе на рассмотр запроса на объединение в %s</string>
+    <string name="created_comment_on_commit" formatted="false">Создан комментарий в правке %s</string>
+    <string name="created_comment_on_issue" formatted="false">Создан комментарий в проблеме %d в %s</string>
+    <string name="created_repo" formatted="false">Создан репозиторий %s</string>
+    <string name="forked_to" formatted="false">Ответвлен %s к %s</string>
+    <string name="starred_repo" formatted="false">Добавлено в избранное %s</string>
+    <string name="push_to" formatted="false">Изменено %s в %s</string>
+    <string name="created_tag_at" formatted="false">Создан тег %s на %s</string>
+    <string name="created_branch_at" formatted="false">Создана ветвь %s на %s</string>
+    <string name="delete_tag_at" formatted="false">Удалён тег %s на %s</string>
+    <string name="delete_branch_at" formatted="false">Удалена ветвь %s на %s</string>
+    <string name="published_release_at" formatted="false">Опубликован релиз %s в %s</string>
+    <string name="opened_issue_at" formatted="false">Открыта проблема %d в %s</string>
+    <string name="closed_issue_at" formatted="false">Открыта проблема %d в %s</string>
+    <string name="reopened_issue_at" formatted="false">Повторно открыта проблема %d в %s</string>
+    <string name="edited_issue_at" formatted="false">Отредактирована проблема %d в %s</string>
+    <string name="assigned_issue_at" formatted="false">Назначена проблема %d в %s</string>
+    <string name="unassigned_issue_at" formatted="false">Удалено назначение проблемы %d в %s</string>
+    <string name="labeled_issue_at" formatted="false">Создана этикетка проблемы %d в %s</string>
+    <string name="unlabeled_issue_at" formatted="false">Удалена этикетка проблемы %d в %s</string>
+    <string name="milestoned_issue_at" formatted="false">Milestoned issue %d в %s</string>
+    <string name="demilestoned_issue_at" formatted="false">Demilestoned issue %d в %s</string>
+    <string name="added_member_to" formatted="false">Добавлен член %s в %s</string>
+    <string name="deleted_member_at" formatted="false">Удалён член %s в %s</string>
+    <string name="edited_member_at" formatted="false">Отредактирован член %s в %s</string>
+    <string name="made_repo_public" formatted="false">Сделано %s публичным</string>
+    <string name="org_blocked_user" formatted="false">Организация %s заблокировала пользователя %s</string>
+    <string name="org_unblocked_user" formatted="false">Организация %s разблокировала пользователя %s</string>
+    <string name="created_pull_request_comment_at" formatted="false">Создан комментарий к запросу на объединение в %s</string>
+    <string name="deleted_pull_request_comment_at" formatted="false">Удалён комментарий к запросу на объединение в %s</string>
+    <string name="edited_pull_request_comment_at" formatted="false">Имзенён комментарий к запросу на объединение в %s</string>
+    <string name="submitted_pull_request_review_at" formatted="false">Послан запрос на рассмотр запроса на объединение в %s</string>
+    <string name="edited_pull_request_review_at" formatted="false">Изменён запрос на рассмотр запроса на объединение в %s</string>
+    <string name="dismissed_pull_request_review_at" formatted="false">Отказано в запросе на рассмотр запроса на объединение в %s</string>
 
     <string name="undo">Отменить</string>
     <string name="no_bookmarks">Нет закладок</string>

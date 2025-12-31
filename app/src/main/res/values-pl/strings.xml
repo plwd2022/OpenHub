@@ -350,39 +350,39 @@
     <string name="double_click_toolbar_tip">You can double click title to back top in list page.</string>
     <string name="releases_click_tip">You can long click item to view available downloads.</string>
 
-    <string name="created_comment_on_commit">Dodano komentarz w %s</string>
-    <string name="created_comment_on_issue">Dodano komentarz do issue %d w %s</string>
-    <string name="created_repo">Stworzono repozytorium %s</string>
-    <string name="forked_to">Forked %s to %s</string>
-    <string name="starred_repo">Dał gwiazdkę %s</string>
-    <string name="push_to">Push to %s at %s</string>
-    <string name="created_tag_at">Stworzył tag %s at %s</string>
-    <string name="created_branch_at">Stworzył branch %s at %s</string>
-    <string name="delete_tag_at">Usunął tag %s at %s</string>
-    <string name="delete_branch_at">Usunął branch %s at %s</string>
-    <string name="published_release_at">Published release %s at %s</string>
-    <string name="opened_issue_at">Otworzył issue %d in %s</string>
-    <string name="closed_issue_at">Zamknął issue %d in %s</string>
-    <string name="reopened_issue_at">Otworzył ponownie issue %d in %s</string>
-    <string name="edited_issue_at">Edytował issue %d in %s</string>
-    <string name="assigned_issue_at">Assigned issue %d in %s</string>
-    <string name="unassigned_issue_at">Unassigned issue %d w %s</string>
-    <string name="labeled_issue_at">Nadał etykietę issue %d w %s</string>
-    <string name="unlabeled_issue_at">Usunął etykietę z issue %d w %s</string>
-    <string name="milestoned_issue_at">Milestoned issue %d in %s</string>
-    <string name="demilestoned_issue_at">Demilestoned issue %d in %s</string>
-    <string name="added_member_to">Dodał użytkownika %s do %s</string>
-    <string name="deleted_member_at">Usunął użytkownika %s z %s</string>
-    <string name="edited_member_at">Edytował użytkownika %s w %s</string>
-    <string name="made_repo_public">Upublicznił %s</string>
-    <string name="org_blocked_user">Organizacja %s zablokowała użytkownika %s</string>
-    <string name="org_unblocked_user">Org %s unblocked user %s</string>
-    <string name="created_pull_request_comment_at">Created pull request review comment at %s</string>
-    <string name="deleted_pull_request_comment_at">Deleted pull request review comment at %s</string>
-    <string name="edited_pull_request_comment_at">Edited pull request review comment at %s</string>
-    <string name="submitted_pull_request_review_at">Submitted pull request review at %s</string>
-    <string name="edited_pull_request_review_at">Edited pull request review at %s</string>
-    <string name="dismissed_pull_request_review_at">Dismissed pull request review at %s</string>
+    <string name="created_comment_on_commit" formatted="false">Dodano komentarz w %s</string>
+    <string name="created_comment_on_issue" formatted="false">Dodano komentarz do issue %d w %s</string>
+    <string name="created_repo" formatted="false">Stworzono repozytorium %s</string>
+    <string name="forked_to" formatted="false">Forked %s to %s</string>
+    <string name="starred_repo" formatted="false">Dał gwiazdkę %s</string>
+    <string name="push_to" formatted="false">Push to %s at %s</string>
+    <string name="created_tag_at" formatted="false">Stworzył tag %s at %s</string>
+    <string name="created_branch_at" formatted="false">Stworzył branch %s at %s</string>
+    <string name="delete_tag_at" formatted="false">Usunął tag %s at %s</string>
+    <string name="delete_branch_at" formatted="false">Usunął branch %s at %s</string>
+    <string name="published_release_at" formatted="false">Published release %s at %s</string>
+    <string name="opened_issue_at" formatted="false">Otworzył issue %d in %s</string>
+    <string name="closed_issue_at" formatted="false">Zamknął issue %d in %s</string>
+    <string name="reopened_issue_at" formatted="false">Otworzył ponownie issue %d in %s</string>
+    <string name="edited_issue_at" formatted="false">Edytował issue %d in %s</string>
+    <string name="assigned_issue_at" formatted="false">Assigned issue %d in %s</string>
+    <string name="unassigned_issue_at" formatted="false">Unassigned issue %d w %s</string>
+    <string name="labeled_issue_at" formatted="false">Nadał etykietę issue %d w %s</string>
+    <string name="unlabeled_issue_at" formatted="false">Usunął etykietę z issue %d w %s</string>
+    <string name="milestoned_issue_at" formatted="false">Milestoned issue %d in %s</string>
+    <string name="demilestoned_issue_at" formatted="false">Demilestoned issue %d in %s</string>
+    <string name="added_member_to" formatted="false">Dodał użytkownika %s do %s</string>
+    <string name="deleted_member_at" formatted="false">Usunął użytkownika %s z %s</string>
+    <string name="edited_member_at" formatted="false">Edytował użytkownika %s w %s</string>
+    <string name="made_repo_public" formatted="false">Upublicznił %s</string>
+    <string name="org_blocked_user" formatted="false">Organizacja %s zablokowała użytkownika %s</string>
+    <string name="org_unblocked_user" formatted="false">Org %s unblocked user %s</string>
+    <string name="created_pull_request_comment_at" formatted="false">Created pull request review comment at %s</string>
+    <string name="deleted_pull_request_comment_at" formatted="false">Deleted pull request review comment at %s</string>
+    <string name="edited_pull_request_comment_at" formatted="false">Edited pull request review comment at %s</string>
+    <string name="submitted_pull_request_review_at" formatted="false">Submitted pull request review at %s</string>
+    <string name="edited_pull_request_review_at" formatted="false">Edited pull request review at %s</string>
+    <string name="dismissed_pull_request_review_at" formatted="false">Dismissed pull request review at %s</string>
 
     <string name="undo">Cofnij</string>
     <string name="no_bookmarks">Brak zakładek</string>
