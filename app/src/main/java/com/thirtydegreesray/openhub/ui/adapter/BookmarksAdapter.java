@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import androidx.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -25,8 +25,6 @@ import com.thirtydegreesray.openhub.util.ViewUtils;
 
 import javax.inject.Inject;
 
-import butterknife.BindView;
-import butterknife.OnClick;
 
 /**
  * Created by ThirtyDegreesRay on 2017/11/22 16:15:52
@@ -107,8 +105,8 @@ public class BookmarksAdapter extends BaseAdapter<BaseViewHolder, BookmarkExt> {
     }
 
     class UserViewHolder extends BaseViewHolder {
-        @BindView(R.id.avatar) ImageView avatar;
-        @BindView(R.id.name) TextView name;
+        ImageView avatar;
+        TextView name;
         public UserViewHolder(@NonNull View itemView) {
             super(itemView);
         }
@@ -116,21 +114,21 @@ public class BookmarksAdapter extends BaseAdapter<BaseViewHolder, BookmarkExt> {
 
     public class RepoViewHolder extends BaseViewHolder {
 
-        @BindView(R.id.iv_user_avatar) ImageView ivUserAvatar;
-        @BindView(R.id.language_color) ImageView languageColor;
-        @BindView(R.id.tv_repo_name) TextView tvRepoName;
-        @BindView(R.id.tv_language) TextView tvLanguage;
-        @BindView(R.id.tv_repo_description) TextView tvRepoDescription;
-        @BindView(R.id.tv_star_num) TextView tvStarNum;
-        @BindView(R.id.tv_fork_num) TextView tvForkNum;
-        @BindView(R.id.tv_owner_name) TextView tvOwnerName;
-        @BindView(R.id.fork_mark) View forkMark;
+        ImageView ivUserAvatar;
+        ImageView languageColor;
+        TextView tvRepoName;
+        TextView tvLanguage;
+        TextView tvRepoDescription;
+        TextView tvStarNum;
+        TextView tvForkNum;
+        TextView tvOwnerName;
+        View forkMark;
 
         public RepoViewHolder(@NonNull View itemView) {
             super(itemView);
         }
 
-        @OnClick(R.id.iv_user_avatar)
+    // TODO: Restore OnClick @OnClick(R.id.iv_user_avatar)
         public void onUserClick(){
             if(getAdapterPosition() != RecyclerView.NO_POSITION) {
                 ProfileActivity.show((Activity) context, ivUserAvatar,

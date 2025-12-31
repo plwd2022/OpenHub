@@ -2,7 +2,7 @@ package com.thirtydegreesray.openhub.ui.adapter;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
-import android.support.v7.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatImageView;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -16,7 +16,6 @@ import com.thirtydegreesray.openhub.util.ViewUtils;
 
 import javax.inject.Inject;
 
-import butterknife.BindView;
 
 /**
  * Created by ThirtyDegreesRay on 2018/1/11 10:54:08
@@ -57,9 +56,9 @@ public class LabelManageAdapter extends BaseAdapter<LabelManageAdapter.ViewHolde
     }
 
     class ViewHolder extends BaseViewHolder {
-        @BindView(R.id.color) AppCompatImageView color;
-        @BindView(R.id.name) TextView name;
-        @BindView(R.id.label_bg) LinearLayout labelBg;
+        AppCompatImageView color;
+        TextView name;
+        LinearLayout labelBg;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
         }

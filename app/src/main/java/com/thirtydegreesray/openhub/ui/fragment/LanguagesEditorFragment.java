@@ -3,8 +3,8 @@ package com.thirtydegreesray.openhub.ui.fragment;
 import android.app.Activity;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
-import android.support.design.widget.Snackbar;
-import android.support.v7.widget.helper.ItemTouchHelper;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.recyclerview.widget.ItemTouchHelper;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.MenuItem;
@@ -27,7 +27,6 @@ import com.thirtydegreesray.openhub.util.PrefUtils;
 
 import java.util.ArrayList;
 
-import butterknife.BindView;
 
 /**
  * Created by ThirtyDegreesRay on 2017/11/28 18:57:52
@@ -51,7 +50,7 @@ public class LanguagesEditorFragment extends ListFragment<LanguagesEditorPresent
     }
 
     private ItemTouchHelper itemTouchHelper;
-    @BindView(R.id.search_edit_text) EditText searchEditText;
+    EditText searchEditText;
 
     @Override
     protected void initFragment(Bundle savedInstanceState) {

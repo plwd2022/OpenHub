@@ -3,7 +3,7 @@ package com.thirtydegreesray.openhub.ui.adapter;
 import android.app.Activity;
 import android.content.Context;
 import androidx.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -20,8 +20,6 @@ import com.thirtydegreesray.openhub.util.StringUtils;
 
 import javax.inject.Inject;
 
-import butterknife.BindView;
-import butterknife.OnClick;
 
 /**
  * Created by ThirtyDegreesRay on 2017/9/20 14:58:40
@@ -71,18 +69,18 @@ public class IssuesAdapter extends BaseAdapter<IssuesAdapter.ViewHolder, Issue> 
 
     class ViewHolder extends BaseViewHolder {
 
-        @BindView(R.id.user_avatar) ImageView userAvatar;
-        @BindView(R.id.user_name) TextView userName;
-        @BindView(R.id.time) TextView time;
-        @BindView(R.id.issue_title) TextView issueTitle;
-        @BindView(R.id.comment_num) TextView commentNum;
-        @BindView(R.id.repo_full_name) TextView repoFullName;
+        ImageView userAvatar;
+        TextView userName;
+        TextView time;
+        TextView issueTitle;
+        TextView commentNum;
+        TextView repoFullName;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
         }
 
-        @OnClick({R.id.user_avatar, R.id.user_name})
+    // TODO: Restore OnClick @OnClick({R.id.user_avatar, R.id.user_name})
         public void onUserClick(){
             if(getAdapterPosition() != RecyclerView.NO_POSITION) {
                 Issue issue = data.get(getAdapterPosition());

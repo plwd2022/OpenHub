@@ -26,9 +26,6 @@ import com.thirtydegreesray.openhub.util.WindowUtil;
 
 import java.util.regex.Pattern;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.Unbinder;
 
 /**
  * Created by ThirtyDegreesRay on 2018/1/11 15:49:08
@@ -40,13 +37,12 @@ public class EditLabelDialog implements DialogInterface.OnDismissListener,
     private final Pattern COLOR_PATTERN = Pattern.compile("([a-f]|[A-F]|\\d){6}");
 
     private View contentView;
-    @BindView(R.id.label_preview) TextView labelPreview;
-    @BindView(R.id.label_name_et) TextInputEditText labelNameEt;
-    @BindView(R.id.label_name_layout) TextInputLayout labelNameLayout;
-    @BindView(R.id.label_color_et) TextInputEditText labelColorEt;
-    @BindView(R.id.label_color_layout) TextInputLayout labelColorLayout;
-    @BindView(R.id.colors_lay) LinearLayout colorsLay;
-    private Unbinder unbinder;
+    TextView labelPreview;
+    TextInputEditText labelNameEt;
+    TextInputLayout labelNameLayout;
+    TextInputEditText labelColorEt;
+    TextInputLayout labelColorLayout;
+    LinearLayout colorsLay;
 
     private Activity activity;
     private Label label;
@@ -71,7 +67,7 @@ public class EditLabelDialog implements DialogInterface.OnDismissListener,
         colorArray = activity.getResources().getIntArray(R.array.labels_color_array);
 
         contentView = activity.getLayoutInflater().inflate(R.layout.layout_edit_label, null);
-        unbinder = ButterKnife.bind(this, contentView);
+        // TODO: Remove ButterKnife.bind
         initContentView();
 
         AlertDialog.Builder builder = new AlertDialog.Builder(activity)
@@ -156,7 +152,6 @@ public class EditLabelDialog implements DialogInterface.OnDismissListener,
 
     @Override
     public void onDismiss(DialogInterface dialog) {
-        unbinder.unbind();
     }
 
     private void showChooseColorDialog() {

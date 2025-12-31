@@ -8,7 +8,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.thirtydegreesray.openhub.AppData;
 import com.thirtydegreesray.openhub.util.AppOpener;
