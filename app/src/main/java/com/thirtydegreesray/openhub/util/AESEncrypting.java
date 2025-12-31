@@ -1,5 +1,3 @@
-
-
 package com.thirtydegreesray.openhub.util;
 
 import androidx.annotation.NonNull;
@@ -18,8 +16,8 @@ public class AESEncrypting {
 	private final static String DEFAULT_KEY = "OpenHubAESKeyRay";
 
 	/**
-	 * AES加密，使用默认密�?
-	 * @param input 加密字符�?
+	 * AES加密，使用默认密钥
+	 * @param input 加密字符串
 	 * @return
 	 */
 	public static String encrypt(@NonNull String input){
@@ -27,8 +25,8 @@ public class AESEncrypting {
 	}
 
 	/**
-	 * AES解密，使用默认密�?
-	 * @param input 解密字符�?
+	 * AES解密，使用默认密钥
+	 * @param input 解密字符串
 	 * @return
 	 */
 	public static String decrypt(String input){
@@ -37,8 +35,8 @@ public class AESEncrypting {
 
 	/**
 	 * AES加密
-	 * @param input 加密字符�?
-	 * @param key 密钥,密钥必须�?6位的
+	 * @param input 加密字符串
+	 * @param key 密钥,密钥必须16位的
 	 * @return
 	 */
 	public static String encrypt(@NonNull String input, @NonNull String key){
@@ -56,8 +54,8 @@ public class AESEncrypting {
 	
 	/**
 	 * AES解密
-	 * @param input 解密字符�?
-	 * @param key 密钥,密钥必须�?6位的
+	 * @param input 解密字符串
+	 * @param key 密钥,密钥必须16位的
 	 * @return
 	 */
 	public static String decrypt(String input, @NonNull String key){

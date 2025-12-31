@@ -1,5 +1,3 @@
-
-
 package com.thirtydegreesray.openhub.mvp.presenter.base;
 
 import android.app.ProgressDialog;
@@ -111,7 +109,7 @@ public abstract class BasePresenter<V extends IBaseContract.View> implements IBa
     @Override
     public void detachView() {
         mView = null;
-        //view 取消绑定时，把请求取消订�?
+        //view 取消绑定时，把请求取消订阅
         for (Subscriber subscriber : subscribers) {
             if (subscriber != null && !subscriber.isUnsubscribed()) {
                 subscriber.unsubscribe();
@@ -197,7 +195,7 @@ public abstract class BasePresenter<V extends IBaseContract.View> implements IBa
     }
 
     /**
-     * 获取上下文，需在onViewAttached()后调�?
+     * 获取上下文，需在onViewAttached()后调用
      *
      * @return
      */
@@ -258,7 +256,7 @@ public abstract class BasePresenter<V extends IBaseContract.View> implements IBa
         generalRxHttpExecute(observableCreator, httpObserver, readCacheFirst, null);
     }
 
-    //防止死循�?
+    //防止死循环
     private Map<String, Integer> requestTimesMap = new HashMap<>();
 
     protected <T> void generalRxHttpExecute(@NonNull final IObservableCreator<T> observableCreator

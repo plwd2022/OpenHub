@@ -1,5 +1,3 @@
-
-
 package com.thirtydegreesray.openhub.util;
 
 import android.content.Context;
@@ -9,7 +7,7 @@ import androidx.annotation.NonNull;
 import android.util.Log;
 
 /**
- * 检测实时网络状�? <p>
+ * 检测实时网络状态 <p>
  * @author Administrator
  *
  */
@@ -30,14 +28,14 @@ public enum  NetHelper {
 	}
 
 	/**
-	 * 检测当前网络状�?
+	 * 检测当前网络状态
 	 */
 	public void checkNet(){
 		try {
 			ConnectivityManager connectivity = (ConnectivityManager) mContext
 					.getSystemService(Context.CONNECTIVITY_SERVICE);
 			if (connectivity != null) {
-				// 获取网络连接管理的对�?
+				// 获取网络连接管理的对象
 				NetworkInfo info = connectivity.getActiveNetworkInfo();
 				if (info != null&& info.isAvailable()) {
 					// 判断当前网络是否已经连接
@@ -68,7 +66,7 @@ public enum  NetHelper {
 	}
 
 	/**
-	 * 是否处于移动网络状�?
+	 * 是否处于移动网络状态
 	 * @return
      */
 	@NonNull
@@ -77,7 +75,7 @@ public enum  NetHelper {
 	}
 
 	/**
-	 * 获取当前网络状�?
+	 * 获取当前网络状态
 	 * @return
      */
 	public int getNetStatus() {

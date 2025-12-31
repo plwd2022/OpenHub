@@ -1,8 +1,8 @@
 package com.thirtydegreesray.openhub.ui.adapter.base;
 
 import android.content.Context;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.AttributeSet;
 
 import com.orhanobut.logger.Logger;
@@ -34,7 +34,7 @@ public class CatchableLinearLayoutManager extends LinearLayoutManager {
          * Inconsistency detected. Invalid view holder adapter positionViewHolder
          * {ab35ef7 position=13 id=-1, oldPos=-1, pLpos:-1 no parent}
          *
-         * Solutionï¼?
+         * Solution:
          * This problem is caused by RecyclerView Data modified in different thread.
          * The best way is checking all data access.
          * Or add add catch to avoid this error.

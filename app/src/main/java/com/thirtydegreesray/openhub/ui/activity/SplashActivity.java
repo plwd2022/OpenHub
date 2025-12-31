@@ -1,5 +1,3 @@
-
-
 package com.thirtydegreesray.openhub.ui.activity;
 
 import android.content.Intent;
@@ -43,7 +41,7 @@ public class SplashActivity extends BaseActivity<SplashPresenter> implements ISp
     }
 
     /**
-     * 依赖注入的入�?
+     * 依赖注入的入口
      *
      * @param appComponent appComponent
      */

@@ -26,10 +26,10 @@ android {
         vectorDrawables.useSupportLibrary = true
         multiDexEnabled true
 
-        buildConfigField "String", "OPENHUB_CLIENT_ID", '"' + (localProperties.getProperty('openhub_client_id') ?: publicProperties.getProperty('openhub_client_id')) + '"'
-        buildConfigField "String", "OPENHUB_CLIENT_SECRET", '"' + (localProperties.getProperty('openhub_client_secret') ?: publicProperties.getProperty('openhub_client_secret')) + '"'
-        buildConfigField "String", "BUGLY_ID", '"' + (localProperties.getProperty('bugly_appid') ?: publicProperties.getProperty('bugly_appid')) + '"'
-        buildConfigField "String", "DEBUG_BUGLY_ID", '"' + (localProperties.getProperty('debug_bugly_appid') ?: publicProperties.getProperty('debug_bugly_appid')) + '"'
+        buildConfigField "String", "OPENHUB_CLIENT_ID", (localProperties.getProperty('openhub_client_id') ?: publicProperties.getProperty('openhub_client_id'))
+        buildConfigField "String", "OPENHUB_CLIENT_SECRET", (localProperties.getProperty('openhub_client_secret') ?: publicProperties.getProperty('openhub_client_secret'))
+        buildConfigField "String", "BUGLY_ID", (localProperties.getProperty('bugly_appid') ?: publicProperties.getProperty('bugly_appid'))
+        buildConfigField "String", "DEBUG_BUGLY_ID", (localProperties.getProperty('debug_bugly_appid') ?: publicProperties.getProperty('debug_bugly_appid'))
 
         ndk {
 //            abiFilters 'armeabi', 'armeabi-v7a', 'x86'

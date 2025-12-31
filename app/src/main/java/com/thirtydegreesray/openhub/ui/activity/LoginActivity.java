@@ -1,5 +1,3 @@
-
-
 package com.thirtydegreesray.openhub.ui.activity;
 
 import android.content.Intent;
@@ -82,7 +80,7 @@ public class LoginActivity extends BaseActivity<LoginPresenter>
     }
 
     /**
-     * 依赖注入的入�?
+     * 依赖注入的入口
      *
      * @param appComponent appComponent
      */
