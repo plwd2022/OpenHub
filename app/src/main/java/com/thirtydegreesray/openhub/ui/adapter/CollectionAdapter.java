@@ -13,7 +13,6 @@ import com.thirtydegreesray.openhub.ui.fragment.base.BaseFragment;
 
 import javax.inject.Inject;
 
-import butterknife.BindView;
 
 /**
  * Created by ThirtyDegreesRay on 2017/12/25 15:07:58
@@ -45,8 +44,8 @@ public class CollectionAdapter extends BaseAdapter<CollectionAdapter.ViewHolder,
     }
 
     class ViewHolder extends BaseViewHolder {
-        @BindView(R.id.name) TextView name;
-        @BindView(R.id.desc) TextView desc;
+        TextView name;
+        TextView desc;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
         }

@@ -21,8 +21,6 @@ import com.thirtydegreesray.openhub.util.StringUtils;
 
 import javax.inject.Inject;
 
-import butterknife.BindView;
-import butterknife.OnClick;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 /**
@@ -69,18 +67,18 @@ public class CommitAdapter extends BaseAdapter<CommitAdapter.ViewHolder, RepoCom
 
     class ViewHolder extends BaseViewHolder {
 
-        @BindView(R.id.user_avatar) CircleImageView userAvatar;
-        @BindView(R.id.user_name) TextView userName;
-        @BindView(R.id.time) TextView time;
-        @BindView(R.id.commit_message) TextView commitMessage;
-        @BindView(R.id.commit_brief_sha) TextView commitBriefSha;
-        @BindView(R.id.comment_num) TextView commentNum;
+        CircleImageView userAvatar;
+        TextView userName;
+        TextView time;
+        TextView commitMessage;
+        TextView commitBriefSha;
+        TextView commentNum;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
         }
 
-        @OnClick({R.id.user_avatar, R.id.user_name})
+    // TODO: Restore OnClick @OnClick({R.id.user_avatar, R.id.user_name})
         void onUserClick() {
             if(getAdapterPosition() != RecyclerView.NO_POSITION) {
                 RepoCommit commit = data.get(getAdapterPosition());

@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import androidx.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.text.Html;
 import android.text.SpannableStringBuilder;
 import android.view.View;
@@ -30,8 +30,6 @@ import java.util.ArrayList;
 
 import javax.inject.Inject;
 
-import butterknife.BindView;
-import butterknife.OnClick;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 /**
@@ -105,7 +103,7 @@ public class IssueTimelineAdapter extends BaseAdapter<BaseViewHolder, IssueEvent
     }
 
     class HeadCommentViewHolder extends CommentViewHolder{
-        @BindView(R.id.issue_labels) TextView issueLabels;
+        TextView issueLabels;
         public HeadCommentViewHolder(@NonNull View itemView) {
             super(itemView);
         }
@@ -126,16 +124,16 @@ public class IssueTimelineAdapter extends BaseAdapter<BaseViewHolder, IssueEvent
 
     class CommentViewHolder extends BaseViewHolder {
 
-        @BindView(R.id.user_avatar) CircleImageView userAvatar;
-        @BindView(R.id.user_name) TextView userName;
-        @BindView(R.id.time) TextView time;
-        @BindView(R.id.comment_desc) TextView commentDesc;
+        CircleImageView userAvatar;
+        TextView userName;
+        TextView time;
+        TextView commentDesc;
 
         public CommentViewHolder(@NonNull View itemView) {
             super(itemView);
         }
 
-        @OnClick({R.id.user_avatar, R.id.user_name})
+    // TODO: Restore OnClick @OnClick({R.id.user_avatar, R.id.user_name})
         public void onUserClicked() {
             if (getAdapterPosition() != RecyclerView.NO_POSITION) {
                 ProfileActivity.show((Activity) context, userAvatar, data.get(getAdapterPosition()).getUser().getLogin(),
@@ -164,16 +162,16 @@ public class IssueTimelineAdapter extends BaseAdapter<BaseViewHolder, IssueEvent
     }
 
     class EventViewHolder extends BaseViewHolder{
-        @BindView(R.id.root_lay) LinearLayout rootLay;
-        @BindView(R.id.event_icon) CircleBackgroundImageView eventIcon;
-        @BindView(R.id.user_avatar) CircleImageView userAvatar;
-        @BindView(R.id.desc) TextView desc;
+        LinearLayout rootLay;
+        CircleBackgroundImageView eventIcon;
+        CircleImageView userAvatar;
+        TextView desc;
 
         public EventViewHolder(@NonNull View itemView) {
             super(itemView);
         }
 
-        @OnClick({R.id.user_avatar})
+    // TODO: Restore OnClick @OnClick({R.id.user_avatar})
         public void onUserClicked() {
             if (getAdapterPosition() != RecyclerView.NO_POSITION) {
                 ProfileActivity.show((Activity) context, userAvatar, data.get(getAdapterPosition()).getActor().getLogin(),

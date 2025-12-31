@@ -16,7 +16,6 @@ import com.thirtydegreesray.openhub.R;
 import com.thirtydegreesray.openhub.mvp.contract.base.IBaseContract;
 import com.thirtydegreesray.openhub.util.ViewUtils;
 
-import butterknife.BindView;
 
 /**
  * Created by ThirtyDegreesRay on 2017/11/9 12:50:41
@@ -25,9 +24,9 @@ import butterknife.BindView;
 public abstract class BaseDrawerActivity<P extends IBaseContract.Presenter> extends BaseActivity<P>
         implements IBaseContract.View {
 
-    @BindView(R.id.nav_view_start) @Nullable protected NavigationView navViewStart;
-    @BindView(R.id.nav_view_end) @Nullable protected NavigationView navViewEnd;
-    @BindView(R.id.drawer_layout) @Nullable protected DrawerLayout drawerLayout;
+    @Nullable protected NavigationView navViewStart;
+    @Nullable protected NavigationView navViewEnd;
+    @Nullable protected DrawerLayout drawerLayout;
 
     private boolean startDrawerEnable = false;
     private boolean endDrawerEnable = false;

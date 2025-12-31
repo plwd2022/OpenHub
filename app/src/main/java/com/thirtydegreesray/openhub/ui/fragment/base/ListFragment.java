@@ -4,11 +4,11 @@ package com.thirtydegreesray.openhub.ui.fragment.base;
 
 import android.os.Bundle;
 import androidx.annotation.NonNull;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.widget.AppCompatImageView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+import androidx.appcompat.widget.AppCompatImageView;
 import android.support.v7.widget.DividerItemDecoration;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -24,8 +24,6 @@ import com.thirtydegreesray.openhub.util.ViewUtils;
 
 import javax.inject.Inject;
 
-import butterknife.BindView;
-import butterknife.OnClick;
 
 /**
  * Created on 2017/7/20.
@@ -39,14 +37,14 @@ public abstract class ListFragment <P extends IBaseContract.Presenter, A extends
         BaseViewHolder.OnItemLongClickListener,
         SwipeRefreshLayout.OnRefreshListener{
 
-    @BindView(R.id.refresh_layout) protected SwipeRefreshLayout refreshLayout;
-    @BindView(R.id.recycler_view) protected RecyclerView recyclerView;
+    protected SwipeRefreshLayout refreshLayout;
+    protected RecyclerView recyclerView;
     @Inject protected A adapter;
     private RecyclerView.AdapterDataObserver observer;
 
-    @BindView(R.id.lay_tip) LinearLayout layTip;
-    @BindView(R.id.tv_tip) TextView tvTip;
-    @BindView(R.id.error_image) AppCompatImageView errorImage;
+    LinearLayout layTip;
+    TextView tvTip;
+    AppCompatImageView errorImage;
 
     private int curPage = 1;
 
@@ -150,7 +148,7 @@ public abstract class ListFragment <P extends IBaseContract.Presenter, A extends
         onReLoadData();
     }
 
-    @OnClick(R.id.retry_bn)
+    // TODO: Restore OnClick @OnClick(R.id.retry_bn)
     public void onRetryClick(@NonNull View view) {
         refreshLayout.setVisibility(View.VISIBLE);
         layTip.setVisibility(View.GONE);

@@ -30,8 +30,6 @@ import com.thirtydegreesray.openhub.util.ViewUtils;
 import java.util.ArrayList;
 import java.util.List;
 
-import butterknife.BindView;
-import butterknife.OnClick;
 
 /**
  * Created by ThirtyDegreesRay on 2017/9/20 14:42:31
@@ -67,7 +65,7 @@ public class IssuesActivity extends PagerActivity<IssuesActPresenter>
     @AutoAccess String userId;
     @AutoAccess String repoName;
     @AutoAccess IssuesFilter.Type issuesType;
-    @BindView(R.id.add_issue_bn) ZoomAbleFloatingActionButton addBn;
+    ZoomAbleFloatingActionButton addBn;
 
     private ArrayList<IssuesListListener> listeners;
 
@@ -147,7 +145,7 @@ public class IssuesActivity extends PagerActivity<IssuesActPresenter>
         return true;
     }
 
-    @OnClick(R.id.add_issue_bn)
+    // TODO: Restore OnClick @OnClick(R.id.add_issue_bn)
     public void onAddIssueClick() {
         EditIssueActivity.showForAdd(getActivity(), userId, repoName, ADD_ISSUE_REQUEST_CODE);
     }

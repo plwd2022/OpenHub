@@ -1,7 +1,7 @@
 package com.thirtydegreesray.openhub.ui.fragment.base;
 
 import androidx.annotation.NonNull;
-import android.support.design.widget.NavigationView;
+import com.google.android.material.navigation.NavigationView;
 import android.view.MenuItem;
 
 /**

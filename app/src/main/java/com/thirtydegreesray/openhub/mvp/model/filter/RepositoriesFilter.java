@@ -3,7 +3,7 @@ package com.thirtydegreesray.openhub.mvp.model.filter;
 import android.os.Parcel;
 import android.os.Parcelable;
 import androidx.annotation.NonNull;
-import android.support.design.widget.NavigationView;
+import com.google.android.material.navigation.NavigationView;
 import android.view.MenuItem;
 
 import com.thirtydegreesray.openhub.R;

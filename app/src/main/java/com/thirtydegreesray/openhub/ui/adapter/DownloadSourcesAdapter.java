@@ -14,8 +14,6 @@ import com.thirtydegreesray.openhub.ui.adapter.base.BaseViewHolder;
 import com.thirtydegreesray.openhub.util.AppOpener;
 import com.thirtydegreesray.openhub.util.StringUtils;
 
-import butterknife.BindView;
-import butterknife.OnClick;
 
 /**
  * Created by ThirtyDegreesRay on 2017/9/16 15:53:46
@@ -58,15 +56,15 @@ public class DownloadSourcesAdapter extends BaseAdapter<DownloadSourcesAdapter.V
 
     class ViewHolder extends BaseViewHolder {
 
-        @BindView(R.id.icon) AppCompatImageView icon;
-        @BindView(R.id.name) TextView name;
-        @BindView(R.id.size) TextView size;
+        AppCompatImageView icon;
+        TextView name;
+        TextView size;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
         }
 
-        @OnClick(R.id.download_bn)
+    // TODO: Restore OnClick @OnClick(R.id.download_bn)
         public void onDownloadClick(){
             DownloadSource source = data.get(getAdapterPosition());
             String fileName = repoName.concat("-").concat(tagName)

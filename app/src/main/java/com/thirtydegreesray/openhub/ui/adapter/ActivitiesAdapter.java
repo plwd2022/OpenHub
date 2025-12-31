@@ -6,7 +6,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.graphics.Typeface;
 import androidx.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.style.StyleSpan;
@@ -33,8 +33,6 @@ import java.util.regex.Matcher;
 
 import javax.inject.Inject;
 
-import butterknife.BindView;
-import butterknife.OnClick;
 
 /**
  * Created by ThirtyDegreesRay on 2017/8/24 11:33:08
@@ -73,17 +71,17 @@ public class ActivitiesAdapter extends BaseAdapter<ActivitiesAdapter.ViewHolder,
 
     class ViewHolder extends BaseViewHolder {
 
-        @BindView(R.id.user_avatar) ImageView userAvatar;
-        @BindView(R.id.user_name) TextView userName;
-        @BindView(R.id.time) TextView time;
-        @BindView(R.id.action) TextView action;
-        @BindView(R.id.desc) TextView desc;
+        ImageView userAvatar;
+        TextView userName;
+        TextView time;
+        TextView action;
+        TextView desc;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
         }
 
-        @OnClick({R.id.user_avatar, R.id.user_name})
+    // TODO: Restore OnClick @OnClick({R.id.user_avatar, R.id.user_name})
         void onUserClick() {
             if(getAdapterPosition() != RecyclerView.NO_POSITION) {
                 String loginId = data.get(getAdapterPosition()).getActor().getLogin();
