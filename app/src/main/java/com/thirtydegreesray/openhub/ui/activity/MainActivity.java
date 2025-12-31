@@ -98,7 +98,7 @@ public class MainActivity extends BaseDrawerActivity<MainPresenter>
     private NewYearWishesDialog newYearWishesDialog;
 
     /**
-     * 依赖注入的入口
+     * 依赖注入的入�?
      *
      * @param appComponent appComponent
      */

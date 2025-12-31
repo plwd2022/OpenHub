@@ -34,7 +34,7 @@ public class CatchableLinearLayoutManager extends LinearLayoutManager {
          * Inconsistency detected. Invalid view holder adapter positionViewHolder
          * {ab35ef7 position=13 id=-1, oldPos=-1, pLpos:-1 no parent}
          *
-         * Solutionï¼š
+         * Solutionï¼?
          * This problem is caused by RecyclerView Data modified in different thread.
          * The best way is checking all data access.
          * Or add add catch to avoid this error.

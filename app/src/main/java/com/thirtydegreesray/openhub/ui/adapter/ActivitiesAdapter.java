@@ -5,7 +5,7 @@ package com.thirtydegreesray.openhub.ui.adapter;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Typeface;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;

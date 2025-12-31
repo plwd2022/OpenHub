@@ -2,8 +2,8 @@
 
 package com.thirtydegreesray.openhub.http.core;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.util.Log;
 
 import com.thirtydegreesray.openhub.AppApplication;
@@ -86,7 +86,7 @@ public enum  AppRetrofit {
     }
 
     /**
-     * 拦截器
+     * 拦截�?
      */
     private class BaseInterceptor implements Interceptor {
         @Override
@@ -133,7 +133,7 @@ public enum  AppRetrofit {
     }
 
     /**
-     * 网络请求拦截器
+     * 网络请求拦截�?
      */
     private class NetworkBaseInterceptor implements Interceptor {
         @Override
@@ -149,7 +149,7 @@ public enum  AppRetrofit {
 //            if (StringUtil.isBlank(serverCacheControl)) {
 //                return originalResponse;
 //            }
-//            //不设置缓存策略
+//            //不设置缓存策�?
 //            else
 
             //有forceNetWork时，强制更改缓存策略
@@ -165,7 +165,7 @@ public enum  AppRetrofit {
             else {
                 Response res = originalResponse.newBuilder()
                         .header("Cache-Control", requestCacheControl)
-                        //纠正服务器时间，服务器时间出错时可能会导致缓存处理出错
+                        //纠正服务器时间，服务器时间出错时可能会导致缓存处理出�?
 //                        .header("Date", getGMTTime())
                         .removeHeader("Pragma")
                         .build();

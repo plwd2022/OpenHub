@@ -6,7 +6,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -14,7 +14,7 @@ import android.view.View;
 import com.thirtydegreesray.openhub.R;
 
 /**
- * RecycleView分割线
+ * RecycleView分割�?
  * Created on 16/9/21.
  *
  * @author ThirtyDegreesRay

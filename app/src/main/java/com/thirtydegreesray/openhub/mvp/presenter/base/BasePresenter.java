@@ -5,10 +5,10 @@ package com.thirtydegreesray.openhub.mvp.presenter.base;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.CallSuper;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.StringRes;
+import androidx.annotation.CallSuper;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.StringRes;
 import android.support.v4.app.Fragment;
 
 import com.orhanobut.logger.Logger;
@@ -111,7 +111,7 @@ public abstract class BasePresenter<V extends IBaseContract.View> implements IBa
     @Override
     public void detachView() {
         mView = null;
-        //view 取消绑定时，把请求取消订阅
+        //view 取消绑定时，把请求取消订�?
         for (Subscriber subscriber : subscribers) {
             if (subscriber != null && !subscriber.isUnsubscribed()) {
                 subscriber.unsubscribe();
@@ -197,7 +197,7 @@ public abstract class BasePresenter<V extends IBaseContract.View> implements IBa
     }
 
     /**
-     * 获取上下文，需在onViewAttached()后调用
+     * 获取上下文，需在onViewAttached()后调�?
      *
      * @return
      */
@@ -258,7 +258,7 @@ public abstract class BasePresenter<V extends IBaseContract.View> implements IBa
         generalRxHttpExecute(observableCreator, httpObserver, readCacheFirst, null);
     }
 
-    //防止死循环
+    //防止死循�?
     private Map<String, Integer> requestTimesMap = new HashMap<>();
 
     protected <T> void generalRxHttpExecute(@NonNull final IObservableCreator<T> observableCreator

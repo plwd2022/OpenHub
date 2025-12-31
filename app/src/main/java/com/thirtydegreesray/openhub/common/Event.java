@@ -13,7 +13,7 @@ import com.thirtydegreesray.openhub.mvp.model.SearchModel;
 public class Event {
 
     /**
-     * 网络状态改变事件
+     * 网络状态改变事�?
      */
     public static class NetChangedEvent{
         public int preNetStatus;

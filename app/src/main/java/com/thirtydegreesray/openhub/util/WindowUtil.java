@@ -8,7 +8,7 @@ import android.graphics.Rect;
 import androidx.annotation.NonNull;
 
 /**
- * 手机窗口工具类
+ * 手机窗口工具�?
  */
 public class WindowUtil {
 
@@ -23,7 +23,7 @@ public class WindowUtil {
     public static int screenHeight = 0;
 
     /** 
-     * 根据手机的分辨率从 dp 的单位 转成为 px(像素) 
+     * 根据手机的分辨率�?dp 的单�?转成�?px(像素) 
      */  
     public static int dipToPx(@NonNull Context context, float dpValue) {
         final float scale = context.getResources().getDisplayMetrics().density;  
@@ -31,7 +31,7 @@ public class WindowUtil {
     }  
   
     /** 
-     * 根据手机的分辨率从 px(像素) 的单位 转成为 dp 
+     * 根据手机的分辨率�?px(像素) 的单�?转成�?dp 
      */  
     public static int pxToDip(@NonNull Context context, float pxValue) {
         final float scale = context.getResources().getDisplayMetrics().density;  

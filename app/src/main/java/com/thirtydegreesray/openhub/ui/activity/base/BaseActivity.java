@@ -114,7 +114,7 @@ BaseActivity<P extends IBaseContract.Presenter>
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        //系统由于内存不足而杀死activity，此时保存数据
+        //系统由于内存不足而杀死activity，此时保存数�?
         DataAutoAccess.saveData(this, outState);
         if(mPresenter != null) mPresenter.onSaveInstanceState(outState);
         if(curActivity.equals(this)){
@@ -128,7 +128,7 @@ BaseActivity<P extends IBaseContract.Presenter>
     }
 
     /**
-     * 依赖注入的入口
+     * 依赖注入的入�?
      * @param appComponent appComponent
      */
     protected abstract void setupActivityComponent(AppComponent appComponent);
@@ -413,7 +413,7 @@ BaseActivity<P extends IBaseContract.Presenter>
     }
 
     /**
-     * 引用资源文件中的字符串
+     * 引用资源文件中的字符�?
      *
      * @param strId
      * @see [类、类#方法、类#成员]

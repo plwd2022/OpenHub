@@ -1,7 +1,7 @@
 package com.thirtydegreesray.openhub.ui.fragment;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.View;

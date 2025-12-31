@@ -3,7 +3,7 @@
 package com.thirtydegreesray.openhub.ui.fragment.base;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.AppCompatImageView;
 import android.support.v7.widget.DividerItemDecoration;

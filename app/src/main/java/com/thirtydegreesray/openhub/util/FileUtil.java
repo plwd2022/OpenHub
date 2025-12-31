@@ -4,15 +4,15 @@ package com.thirtydegreesray.openhub.util;
 
 import android.content.Context;
 import android.os.Environment;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.util.Base64;
 
 import java.io.File;
 import java.io.FileInputStream;
 
 /**
- * 文件工具类
+ * 文件工具�?
  * Created by ThirtyDegreesRay on 2016/8/4 13:30
  */
 public class FileUtil {
@@ -24,11 +24,11 @@ public class FileUtil {
     private final static String HTTP_CACHE_DIR_NAME = "http_response";
 
     /**
-     * 获取缓存文件夹
+     * 获取缓存文件�?
      *
-     * @param context 上下文
-     * @param dirName 文件夹名称
-     * @return 缓存文件夹
+     * @param context 上下�?
+     * @param dirName 文件夹名�?
+     * @return 缓存文件�?
      */
     @Nullable
     public static File getCacheDir(@NonNull Context context, @NonNull String dirName) {
@@ -41,10 +41,10 @@ public class FileUtil {
     }
 
     /**
-     * 获取音频缓存文件夹
+     * 获取音频缓存文件�?
      *
-     * @param context 上下文
-     * @return 音频缓存文件夹
+     * @param context 上下�?
+     * @return 音频缓存文件�?
      */
     @Nullable
     public static File getAudioCacheDir(@NonNull Context context) {
@@ -52,10 +52,10 @@ public class FileUtil {
     }
 
     /**
-     * 获取图片缓存文件夹
+     * 获取图片缓存文件�?
      *
-     * @param context 上下文
-     * @return 图片缓存文件夹
+     * @param context 上下�?
+     * @return 图片缓存文件�?
      */
     @Nullable
     public static File getSignImageCacheDir(@NonNull Context context) {
@@ -63,9 +63,9 @@ public class FileUtil {
     }
 
     /**
-     * 获取网络请求缓存文件夹
-     * @param context 上下文
-     * @return 网络请求缓存文件夹
+     * 获取网络请求缓存文件�?
+     * @param context 上下�?
+     * @return 网络请求缓存文件�?
      */
     @Nullable
     public static File getHttpImageCacheDir(@NonNull Context context) {
@@ -73,7 +73,7 @@ public class FileUtil {
     }
 
     /**
-     * 检查内部存储是否可用
+     * 检查内部存储是否可�?
      * @return
      */
     public static boolean isExternalStorageEnable() {

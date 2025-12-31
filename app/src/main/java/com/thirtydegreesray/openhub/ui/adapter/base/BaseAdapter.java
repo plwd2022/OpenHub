@@ -3,8 +3,8 @@
 package com.thirtydegreesray.openhub.ui.adapter.base;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.StringRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.StringRes;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,7 +17,7 @@ import java.util.ArrayList;
 
 
 /**
- * 适配器基类
+ * 适配器基�?
  * Created by ThirtyDegreesRay on 2016/7/27 19:49
  */
 public abstract class BaseAdapter<VH extends BaseViewHolder, D extends Object>

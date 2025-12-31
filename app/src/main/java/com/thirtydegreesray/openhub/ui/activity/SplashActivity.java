@@ -5,7 +5,7 @@ package com.thirtydegreesray.openhub.ui.activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.thirtydegreesray.openhub.inject.component.AppComponent;
 import com.thirtydegreesray.openhub.inject.component.DaggerActivityComponent;
@@ -43,7 +43,7 @@ public class SplashActivity extends BaseActivity<SplashPresenter> implements ISp
     }
 
     /**
-     * 依赖注入的入口
+     * 依赖注入的入�?
      *
      * @param appComponent appComponent
      */

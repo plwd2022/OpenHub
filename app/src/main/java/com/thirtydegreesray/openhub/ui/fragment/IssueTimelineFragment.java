@@ -2,7 +2,7 @@ package com.thirtydegreesray.openhub.ui.fragment;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 import android.view.View;
 
