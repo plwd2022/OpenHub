@@ -30,10 +30,10 @@ import com.thirtydegreesray.openhub.util.BundleHelper;
 import com.thirtydegreesray.openhub.util.StringUtils;
 import com.thirtydegreesray.openhub.util.ViewUtils;
 
+import butterknife.OnClick;
+
 import java.util.ArrayList;
 
-import butterknife.BindView;
-import butterknife.OnClick;
 
 /**
  * Created by ThirtyDegreesRay on 2017/10/13 17:37:35
@@ -42,12 +42,12 @@ import butterknife.OnClick;
 public class EditIssueActivity extends BaseActivity<EditIssuePresenter>
         implements IEditIssueContract.View, ChooseLabelsDialog.ChooseLabelsListener {
 
-    @BindView(R.id.title_edit) TextInputEditText titleEdit;
-    @BindView(R.id.title_layout) TextInputLayout titleLayout;
-    @BindView(R.id.comment_edit) TextInputEditText commentEdit;
-    @BindView(R.id.comment_layout) TextInputLayout commentLayout;
-    @BindView(R.id.labels_text) TextView labelsText;
-    @BindView(R.id.edit_labels) LinearLayout editLabelsLay;
+    TextInputEditText titleEdit;
+    TextInputLayout titleLayout;
+    TextInputEditText commentEdit;
+    TextInputLayout commentLayout;
+    TextView labelsText;
+    LinearLayout editLabelsLay;
 
     public static void showForAdd(@NonNull Activity activity, @NonNull String userId,
                                   @NonNull String repoName, int requestCode) {

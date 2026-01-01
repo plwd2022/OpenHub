@@ -5,8 +5,8 @@ package com.thirtydegreesray.openhub.ui.adapter;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import androidx.annotation.NonNull;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.widget.AppCompatImageView;
+import androidx.core.content.ContextCompat;
+import androidx.appcompat.widget.AppCompatImageView;
 import android.view.View;
 import android.widget.TextView;
 
@@ -22,7 +22,6 @@ import java.util.Locale;
 
 import javax.inject.Inject;
 
-import butterknife.BindView;
 
 /**
  * Created by ThirtyDegreesRay on 2017/10/18 15:09:19
@@ -100,17 +99,17 @@ public class CommitFilesAdapter extends BaseAdapter<BaseViewHolder,
     }
 
     class PathViewHolder extends BaseViewHolder {
-        @BindView(R.id.path) TextView path;
+        TextView path;
         public PathViewHolder(@NonNull View itemView) {
             super(itemView);
         }
     }
 
     class FileViewHolder extends BaseViewHolder {
-        @BindView(R.id.status_type) AppCompatImageView statusType;
-        @BindView(R.id.file_name) TextView fileName;
-        @BindView(R.id.additions_count) TextView additionsCount;
-        @BindView(R.id.deletions_count) TextView deletionsCount;
+        AppCompatImageView statusType;
+        TextView fileName;
+        TextView additionsCount;
+        TextView deletionsCount;
 
         public FileViewHolder(@NonNull View itemView) {
             super(itemView);

@@ -32,7 +32,6 @@ import com.thirtydegreesray.openhub.util.BundleHelper;
 import com.thirtydegreesray.openhub.util.PrefUtils;
 import com.thirtydegreesray.openhub.util.StringUtils;
 
-import butterknife.BindView;
 import butterknife.OnClick;
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -84,14 +83,14 @@ public class CommitDetailActivity extends BaseActivity<CommitDetailPresenter>
 
     }
 
-    @BindView(R.id.user_avatar) CircleImageView userAvatar;
-    @BindView(R.id.commit_message) TextView commitMessage;
-    @BindView(R.id.changed_files_count) TextView changedFileCount;
-    @BindView(R.id.additions_count) TextView addtionsCount;
-    @BindView(R.id.deletions_count) TextView deletionsCount;
+    CircleImageView userAvatar;
+    TextView commitMessage;
+    TextView changedFileCount;
+    TextView addtionsCount;
+    TextView deletionsCount;
 
-    @BindView(R.id.loader) ProgressBar loader;
-    @BindView(R.id.comment_bn) FloatingActionButton commentBn;
+    ProgressBar loader;
+    FloatingActionButton commentBn;
 
     @Override
     protected void setupActivityComponent(AppComponent appComponent) {

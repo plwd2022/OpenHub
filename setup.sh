@@ -34,9 +34,7 @@ if [ ! -d "$ANDROID_SDK_ROOT/cmdline-tools" ]; then
   # 安装项目所需的SDK版本和构建工具
   "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --sdk_root="$ANDROID_SDK_ROOT" \
     "platform-tools" \
-    "platforms;android-36" \
-    "build-tools;36.0.0" \
-    "build-tools;35.0.0" \
+    "platforms;android-34" \
     "build-tools;34.0.0"
 
   cd - # 回到原始目录
@@ -44,10 +42,10 @@ else
   echo "✅ Android SDK 已存在，跳过安装。"
   
   # 检查是否需要安装额外的SDK版本
-  if [ ! -d "$ANDROID_SDK_ROOT/platforms/android-36" ]; then
-    echo "📦 安装 Android 36 SDK..."
+  if [ ! -d "$ANDROID_SDK_ROOT/platforms/android-34" ]; then
+    echo "📦 安装 Android 34 SDK..."
     yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --sdk_root="$ANDROID_SDK_ROOT" --licenses || true
-    "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --sdk_root="$ANDROID_SDK_ROOT" "platforms;android-36" "build-tools;36.0.0"
+    "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --sdk_root="$ANDROID_SDK_ROOT" "platforms;android-34" "build-tools;34.0.0"
   fi
 fi
 
@@ -60,8 +58,8 @@ source ~/.bashrc
 echo "✅ Android Jetpack Compose 环境准备完成！"
 echo "📋 已安装的组件："
 echo "   - Java 17 OpenJDK"
-echo "   - Android SDK Platform 36"
-echo "   - Android Build Tools 36.0.0, 35.0.0, 34.0.0"
+echo "   - Android SDK Platform 34"
+echo "   - Android Build Tools 34.0.0"
 echo "   - Android Platform Tools"
 echo "   - Gradle Wrapper (8.13)"
 echo ""

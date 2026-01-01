@@ -17,10 +17,10 @@ import com.thirtydegreesray.openhub.ui.fragment.base.ListFragment;
 import com.thirtydegreesray.openhub.ui.widget.ZoomAbleFloatingActionButton;
 import com.thirtydegreesray.openhub.util.BundleHelper;
 
+import butterknife.OnClick;
+
 import java.util.ArrayList;
 
-import butterknife.BindView;
-import butterknife.OnClick;
 
 /**
  * Created by ThirtyDegreesRay on 2017/11/28 18:55:27
@@ -45,7 +45,7 @@ public class LanguagesEditorActivity extends
         activity.startActivityForResult(intent, requestCode);
     }
 
-    @BindView(R.id.float_action_bn) ZoomAbleFloatingActionButton floatingActionButton;
+    ZoomAbleFloatingActionButton floatingActionButton;
     private final int ADD_LANGUAGE_REQUEST_CODE = 100;
 
     @Override

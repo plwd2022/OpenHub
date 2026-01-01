@@ -27,11 +27,11 @@ import com.thirtydegreesray.openhub.ui.widget.ZoomAbleFloatingActionButton;
 import com.thirtydegreesray.openhub.util.BundleHelper;
 import com.thirtydegreesray.openhub.util.ViewUtils;
 
+import butterknife.OnClick;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import butterknife.BindView;
-import butterknife.OnClick;
 
 /**
  * Created by ThirtyDegreesRay on 2017/9/20 14:42:31
@@ -67,7 +67,7 @@ public class IssuesActivity extends PagerActivity<IssuesActPresenter>
     @AutoAccess String userId;
     @AutoAccess String repoName;
     @AutoAccess IssuesFilter.Type issuesType;
-    @BindView(R.id.add_issue_bn) ZoomAbleFloatingActionButton addBn;
+    ZoomAbleFloatingActionButton addBn;
 
     private ArrayList<IssuesListListener> listeners;
 

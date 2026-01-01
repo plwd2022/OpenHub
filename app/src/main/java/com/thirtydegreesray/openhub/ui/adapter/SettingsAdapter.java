@@ -4,7 +4,7 @@ package com.thirtydegreesray.openhub.ui.adapter;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
-import android.support.v7.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatImageView;
 import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.Switch;

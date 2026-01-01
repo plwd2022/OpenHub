@@ -4,7 +4,7 @@ package com.thirtydegreesray.openhub.ui.adapter;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
-import android.support.v7.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatImageView;
 import android.view.View;
 import android.widget.TextView;
 
@@ -15,7 +15,6 @@ import com.thirtydegreesray.openhub.ui.adapter.base.BaseViewHolder;
 
 import javax.inject.Inject;
 
-import butterknife.BindView;
 
 /**
  * Created by ThirtyDegreesRay on 2017/8/27 12:05:09
@@ -52,8 +51,8 @@ public class FilePathAdapter extends BaseAdapter<FilePathAdapter.ViewHolder, Fil
     }
 
     class ViewHolder extends BaseViewHolder {
-        @BindView(R.id.arrow) AppCompatImageView arrow;
-        @BindView(R.id.path) TextView path;
+        AppCompatImageView arrow;
+        TextView path;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);

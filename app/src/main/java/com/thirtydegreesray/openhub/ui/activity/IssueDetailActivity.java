@@ -37,8 +37,8 @@ import com.thirtydegreesray.openhub.util.AppUtils;
 import com.thirtydegreesray.openhub.util.BundleHelper;
 import com.thirtydegreesray.openhub.util.PrefUtils;
 
-import butterknife.BindView;
 import butterknife.OnClick;
+
 
 /**
  * Created by ThirtyDegreesRay on 2017/9/26 19:27:11
@@ -86,13 +86,13 @@ public class IssueDetailActivity extends BaseActivity<IssueDetailPresenter>
                         .put("issueNumber", issueNumber).build());
     }
 
-    @BindView(R.id.user_avatar) ImageView userImageView;
-    @BindView(R.id.issue_title) TextView issueTitle;
-    @BindView(R.id.issue_state_img) ImageView issueStateImg;
-    @BindView(R.id.issue_state_text) TextView issueStateText;
-    @BindView(R.id.comment_bn) ZoomAbleFloatingActionButton commentBn;
-    @BindView(R.id.edit_bn) FloatingActionButton editBn;
-    @BindView(R.id.loader) ProgressBar loader;
+    ImageView userImageView;
+    TextView issueTitle;
+    ImageView issueStateImg;
+    TextView issueStateText;
+    ZoomAbleFloatingActionButton commentBn;
+    FloatingActionButton editBn;
+    ProgressBar loader;
 
     private IssueTimelineFragment issueTimelineFragment;
 

@@ -2,7 +2,7 @@ package com.thirtydegreesray.openhub.ui.widget;
 
 import android.content.Context;
 import androidx.annotation.Nullable;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.view.ContextMenu;
 import android.view.View;

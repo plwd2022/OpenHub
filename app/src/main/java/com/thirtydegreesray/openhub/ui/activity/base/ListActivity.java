@@ -4,8 +4,8 @@ package com.thirtydegreesray.openhub.ui.activity.base;
 
 import android.os.Bundle;
 import androidx.annotation.NonNull;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
 import com.thirtydegreesray.openhub.R;
@@ -15,7 +15,6 @@ import com.thirtydegreesray.openhub.ui.adapter.base.BaseViewHolder;
 
 import javax.inject.Inject;
 
-import butterknife.BindView;
 
 /**
  * Created on 2017/8/1.
@@ -28,7 +27,7 @@ public abstract class ListActivity <P extends IBaseContract.Presenter, A extends
         BaseViewHolder.OnItemClickListener,
         BaseViewHolder.OnItemLongClickListener {
 
-    @BindView(R.id.recycler_view) protected RecyclerView recyclerView;
+    protected RecyclerView recyclerView;
     @Inject protected A adapter;
 
     @Override

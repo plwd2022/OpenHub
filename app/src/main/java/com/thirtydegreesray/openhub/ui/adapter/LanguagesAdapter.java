@@ -3,7 +3,7 @@ package com.thirtydegreesray.openhub.ui.adapter;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import androidx.annotation.NonNull;
-import android.support.v7.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatImageView;
 import android.view.View;
 import android.widget.TextView;
 
@@ -16,7 +16,6 @@ import com.thirtydegreesray.openhub.util.LanguageColorsHelper;
 
 import javax.inject.Inject;
 
-import butterknife.BindView;
 
 /**
  * Created by ThirtyDegreesRay on 2017/11/28 18:45:27
@@ -50,9 +49,9 @@ public class LanguagesAdapter extends BaseAdapter<LanguagesAdapter.ViewHolder, T
     }
 
     class ViewHolder extends BaseViewHolder {
-        @BindView(R.id.language_name) TextView languageName;
-        @BindView(R.id.selected_flag) AppCompatImageView selectedFlag;
-        @BindView(R.id.language_color) AppCompatImageView languageColor;
+        TextView languageName;
+        AppCompatImageView selectedFlag;
+        AppCompatImageView languageColor;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
         }

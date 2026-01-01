@@ -48,8 +48,6 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
 import es.dmoral.toasty.Toasty;
 
 /**
@@ -66,8 +64,8 @@ BaseActivity<P extends IBaseContract.Presenter>
     private static BaseActivity curActivity;
 
     protected boolean isAlive = true;
-    @BindView(R.id.toolbar) @Nullable protected Toolbar toolbar;
-    @BindView(R.id.toolbar_layout) @Nullable protected CollapsingToolbarLayout toolbarLayout;
+    @Nullable protected Toolbar toolbar;
+    @Nullable protected CollapsingToolbarLayout toolbarLayout;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -98,7 +96,7 @@ BaseActivity<P extends IBaseContract.Presenter>
 
         if(getContentView() != 0){
             setContentView(getContentView());
-            ButterKnife.bind(getActivity());
+        // TODO: Remove ButterKnife.bind
         }
 
         initActivity();

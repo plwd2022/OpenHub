@@ -2,7 +2,7 @@ package com.thirtydegreesray.openhub.ui.fragment;
 
 import android.os.Bundle;
 import androidx.annotation.Nullable;
-import android.support.v7.widget.PopupMenu;
+import androidx.appcompat.widget.PopupMenu;
 import android.text.Editable;
 import android.view.Gravity;
 import android.view.Menu;

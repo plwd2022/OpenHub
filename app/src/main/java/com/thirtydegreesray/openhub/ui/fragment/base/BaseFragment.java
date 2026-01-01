@@ -11,9 +11,9 @@ import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
-import android.support.design.widget.Snackbar;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.AlertDialog;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.fragment.app.Fragment;
+import androidx.appcompat.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -30,8 +30,6 @@ import com.thirtydegreesray.openhub.util.AppUtils;
 
 import javax.inject.Inject;
 
-import butterknife.ButterKnife;
-import butterknife.Unbinder;
 import es.dmoral.toasty.Toasty;
 
 /**
@@ -48,7 +46,6 @@ public abstract class BaseFragment<P extends IBaseContract.Presenter>
     @Inject
     protected P mPresenter;
     private ProgressDialog mProgressDialog;
-    Unbinder unbinder;
 
     /**
      * fragment for viewpager
@@ -74,7 +71,7 @@ public abstract class BaseFragment<P extends IBaseContract.Presenter>
         //some page contain WebView will make default language changed
         AppUtils.updateAppLanguage(getActivity());
         View fragmentView = inflater.inflate(getLayoutId(), container, false);
-        unbinder = ButterKnife.bind(this, fragmentView);
+        // TODO: Remove ButterKnife.bind
         initFragment(savedInstanceState);
         if (mPresenter != null) mPresenter.onViewInitialized();
         return fragmentView;
@@ -121,7 +118,6 @@ public abstract class BaseFragment<P extends IBaseContract.Presenter>
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        unbinder.unbind();
         if (mPresenter != null) mPresenter.detachView();
     }
 
