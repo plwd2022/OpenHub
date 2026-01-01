@@ -22,6 +22,7 @@ import com.thirtydegreesray.openhub.util.StringUtils;
 import com.thirtydegreesray.openhub.util.ViewUtils;
 import com.unstoppable.submitbuttonview.SubmitButton;
 
+import butterknife.OnClick;
 import es.dmoral.toasty.Toasty;
 
 /**
@@ -133,7 +134,7 @@ public class LoginActivity extends BaseActivity<LoginPresenter>
     }
 
 
-    // TODO: Restore OnClick @OnClick(R.id.login_bn)
+    @OnClick(R.id.login_bn)
     public void onOauthLoginClick(){
         AppOpener.openInCustomTabsOrBrowser(getActivity(), mPresenter.getOAuth2Url());
     }

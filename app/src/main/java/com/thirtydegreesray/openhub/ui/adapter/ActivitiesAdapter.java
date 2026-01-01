@@ -33,6 +33,8 @@ import java.util.regex.Matcher;
 
 import javax.inject.Inject;
 
+import butterknife.OnClick;
+
 
 /**
  * Created by ThirtyDegreesRay on 2017/8/24 11:33:08
@@ -81,7 +83,7 @@ public class ActivitiesAdapter extends BaseAdapter<ActivitiesAdapter.ViewHolder,
             super(itemView);
         }
 
-    // TODO: Restore OnClick @OnClick({R.id.user_avatar, R.id.user_name})
+    @OnClick({R.id.user_avatar, R.id.user_name})
         void onUserClick() {
             if(getAdapterPosition() != RecyclerView.NO_POSITION) {
                 String loginId = data.get(getAdapterPosition()).getActor().getLogin();

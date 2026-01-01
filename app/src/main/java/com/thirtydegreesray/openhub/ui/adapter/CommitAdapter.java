@@ -21,6 +21,7 @@ import com.thirtydegreesray.openhub.util.StringUtils;
 
 import javax.inject.Inject;
 
+import butterknife.OnClick;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 /**
@@ -78,7 +79,7 @@ public class CommitAdapter extends BaseAdapter<CommitAdapter.ViewHolder, RepoCom
             super(itemView);
         }
 
-    // TODO: Restore OnClick @OnClick({R.id.user_avatar, R.id.user_name})
+    @OnClick({R.id.user_avatar, R.id.user_name})
         void onUserClick() {
             if(getAdapterPosition() != RecyclerView.NO_POSITION) {
                 RepoCommit commit = data.get(getAdapterPosition());

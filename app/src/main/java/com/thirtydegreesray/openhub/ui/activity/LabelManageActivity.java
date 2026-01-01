@@ -14,6 +14,8 @@ import com.thirtydegreesray.openhub.ui.activity.base.SingleFragmentActivity;
 import com.thirtydegreesray.openhub.ui.fragment.LabelManageFragment;
 import com.thirtydegreesray.openhub.util.BundleHelper;
 
+import butterknife.OnClick;
+
 
 /**
  * Created by ThirtyDegreesRay on 2018/1/11 10:50:09
@@ -45,7 +47,8 @@ public class LabelManageActivity extends SingleFragmentActivity<IBaseContract.Pr
         setToolbarScrollAble(true);
     }
 
-    // TODO: Restore OnClick @OnClick(R.id.float_action_bn) public void onCreateLabelClick(){
+    @OnClick(R.id.float_action_bn)
+    public void onCreateLabelClick(){
         getFragment().onCreateLabelClick();
     }
 

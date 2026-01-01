@@ -25,6 +25,8 @@ import com.thirtydegreesray.openhub.util.ViewUtils;
 
 import javax.inject.Inject;
 
+import butterknife.OnClick;
+
 
 /**
  * Created by ThirtyDegreesRay on 2017/11/22 16:15:52
@@ -128,7 +130,7 @@ public class BookmarksAdapter extends BaseAdapter<BaseViewHolder, BookmarkExt> {
             super(itemView);
         }
 
-    // TODO: Restore OnClick @OnClick(R.id.iv_user_avatar)
+    @OnClick(R.id.iv_user_avatar)
         public void onUserClick(){
             if(getAdapterPosition() != RecyclerView.NO_POSITION) {
                 ProfileActivity.show((Activity) context, ivUserAvatar,

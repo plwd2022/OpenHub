@@ -32,6 +32,7 @@ import com.thirtydegreesray.openhub.util.BundleHelper;
 import com.thirtydegreesray.openhub.util.PrefUtils;
 import com.thirtydegreesray.openhub.util.StringUtils;
 
+import butterknife.OnClick;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 /**
@@ -168,7 +169,7 @@ public class CommitDetailActivity extends BaseActivity<CommitDetailPresenter>
                 .into(userAvatar);
     }
 
-    // TODO: Restore OnClick @OnClick(R.id.comment_bn)
+    @OnClick(R.id.comment_bn)
     public void onViewClicked() {
 
     }
@@ -213,12 +214,12 @@ public class CommitDetailActivity extends BaseActivity<CommitDetailPresenter>
         return true;
     }
 
-    // TODO: Restore OnClick @OnClick(R.id.commit_message)
+    @OnClick(R.id.commit_message)
     public void onCommitMessageClick() {
         commitMessage.setMaxLines(commitMessage.getMaxLines() == 6 ? 20 : 6);
     }
 
-    // TODO: Restore OnClick @OnClick(R.id.user_avatar)
+    @OnClick(R.id.user_avatar)
     public void onUserAvatarClick() {
         if (mPresenter.getCommit() != null && mPresenter.getCommit().getAuthor() != null) {
             RepoCommit commit = mPresenter.getCommit();

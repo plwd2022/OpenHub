@@ -27,6 +27,8 @@ import com.thirtydegreesray.openhub.ui.widget.ZoomAbleFloatingActionButton;
 import com.thirtydegreesray.openhub.util.BundleHelper;
 import com.thirtydegreesray.openhub.util.ViewUtils;
 
+import butterknife.OnClick;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -145,7 +147,7 @@ public class IssuesActivity extends PagerActivity<IssuesActPresenter>
         return true;
     }
 
-    // TODO: Restore OnClick @OnClick(R.id.add_issue_bn)
+    @OnClick(R.id.add_issue_bn)
     public void onAddIssueClick() {
         EditIssueActivity.showForAdd(getActivity(), userId, repoName, ADD_ISSUE_REQUEST_CODE);
     }

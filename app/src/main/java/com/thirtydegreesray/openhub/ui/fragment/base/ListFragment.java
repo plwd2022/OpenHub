@@ -6,7 +6,7 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.appcompat.widget.AppCompatImageView;
-import android.support.v7.widget.DividerItemDecoration;
+import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
@@ -23,6 +23,8 @@ import com.thirtydegreesray.openhub.util.PrefUtils;
 import com.thirtydegreesray.openhub.util.ViewUtils;
 
 import javax.inject.Inject;
+
+import butterknife.OnClick;
 
 
 /**
@@ -148,7 +150,7 @@ public abstract class ListFragment <P extends IBaseContract.Presenter, A extends
         onReLoadData();
     }
 
-    // TODO: Restore OnClick @OnClick(R.id.retry_bn)
+    @OnClick(R.id.retry_bn)
     public void onRetryClick(@NonNull View view) {
         refreshLayout.setVisibility(View.VISIBLE);
         layTip.setVisibility(View.GONE);

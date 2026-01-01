@@ -20,6 +20,8 @@ import com.thirtydegreesray.openhub.util.StringUtils;
 
 import javax.inject.Inject;
 
+import butterknife.OnClick;
+
 
 /**
  * Created by ThirtyDegreesRay on 2017/9/20 14:58:40
@@ -80,7 +82,7 @@ public class IssuesAdapter extends BaseAdapter<IssuesAdapter.ViewHolder, Issue> 
             super(itemView);
         }
 
-    // TODO: Restore OnClick @OnClick({R.id.user_avatar, R.id.user_name})
+    @OnClick({R.id.user_avatar, R.id.user_name})
         public void onUserClick(){
             if(getAdapterPosition() != RecyclerView.NO_POSITION) {
                 Issue issue = data.get(getAdapterPosition());

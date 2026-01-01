@@ -17,6 +17,8 @@ import com.thirtydegreesray.openhub.ui.fragment.base.ListFragment;
 import com.thirtydegreesray.openhub.ui.widget.ZoomAbleFloatingActionButton;
 import com.thirtydegreesray.openhub.util.BundleHelper;
 
+import butterknife.OnClick;
+
 import java.util.ArrayList;
 
 
@@ -87,7 +89,7 @@ public class LanguagesEditorActivity extends
         setToolbarScrollAble(true);
     }
 
-    // TODO: Restore OnClick @OnClick(R.id.float_action_bn)
+    @OnClick(R.id.float_action_bn)
     public void onAddClick() {
         LanguagesEditorActivity.showForChoose(getActivity(), LanguageEditorMode.Choose,
                 getFragment().getSelectedLanguages(), ADD_LANGUAGE_REQUEST_CODE);

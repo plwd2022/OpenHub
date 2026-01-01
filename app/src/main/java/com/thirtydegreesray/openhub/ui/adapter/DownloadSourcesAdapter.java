@@ -14,6 +14,8 @@ import com.thirtydegreesray.openhub.ui.adapter.base.BaseViewHolder;
 import com.thirtydegreesray.openhub.util.AppOpener;
 import com.thirtydegreesray.openhub.util.StringUtils;
 
+import butterknife.OnClick;
+
 
 /**
  * Created by ThirtyDegreesRay on 2017/9/16 15:53:46
@@ -64,7 +66,7 @@ public class DownloadSourcesAdapter extends BaseAdapter<DownloadSourcesAdapter.V
             super(itemView);
         }
 
-    // TODO: Restore OnClick @OnClick(R.id.download_bn)
+    @OnClick(R.id.download_bn)
         public void onDownloadClick(){
             DownloadSource source = data.get(getAdapterPosition());
             String fileName = repoName.concat("-").concat(tagName)

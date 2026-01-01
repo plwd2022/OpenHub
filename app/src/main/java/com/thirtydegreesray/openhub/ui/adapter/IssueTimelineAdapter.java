@@ -30,6 +30,7 @@ import java.util.ArrayList;
 
 import javax.inject.Inject;
 
+import butterknife.OnClick;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 /**
@@ -133,7 +134,7 @@ public class IssueTimelineAdapter extends BaseAdapter<BaseViewHolder, IssueEvent
             super(itemView);
         }
 
-    // TODO: Restore OnClick @OnClick({R.id.user_avatar, R.id.user_name})
+    @OnClick({R.id.user_avatar, R.id.user_name})
         public void onUserClicked() {
             if (getAdapterPosition() != RecyclerView.NO_POSITION) {
                 ProfileActivity.show((Activity) context, userAvatar, data.get(getAdapterPosition()).getUser().getLogin(),
@@ -171,7 +172,7 @@ public class IssueTimelineAdapter extends BaseAdapter<BaseViewHolder, IssueEvent
             super(itemView);
         }
 
-    // TODO: Restore OnClick @OnClick({R.id.user_avatar})
+    @OnClick({R.id.user_avatar})
         public void onUserClicked() {
             if (getAdapterPosition() != RecyclerView.NO_POSITION) {
                 ProfileActivity.show((Activity) context, userAvatar, data.get(getAdapterPosition()).getActor().getLogin(),

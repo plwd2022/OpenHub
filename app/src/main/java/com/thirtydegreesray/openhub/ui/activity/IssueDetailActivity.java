@@ -37,6 +37,8 @@ import com.thirtydegreesray.openhub.util.AppUtils;
 import com.thirtydegreesray.openhub.util.BundleHelper;
 import com.thirtydegreesray.openhub.util.PrefUtils;
 
+import butterknife.OnClick;
+
 
 /**
  * Created by ThirtyDegreesRay on 2017/9/26 19:27:11
@@ -226,12 +228,12 @@ public class IssueDetailActivity extends BaseActivity<IssueDetailPresenter>
                 text, issueTimelineFragment == null ? null : issueTimelineFragment.getIssueUsersExceptMe());
     }
 
-    // TODO: Restore OnClick @OnClick(R.id.comment_bn)
+    @OnClick(R.id.comment_bn)
     public void onCommentBnClicked() {
         showAddCommentPage(null);
     }
 
-    // TODO: Restore OnClick @OnClick(R.id.edit_bn)
+    @OnClick(R.id.edit_bn)
     public void onEditBnClicked() {
         EditIssueActivity.showForEdit(getActivity(), mPresenter.getIssue(), EDIT_ISSUE_REQUEST_CODE);
     }
@@ -274,7 +276,7 @@ public class IssueDetailActivity extends BaseActivity<IssueDetailPresenter>
         loader.setVisibility(View.GONE);
     }
 
-    // TODO: Restore OnClick @OnClick(R.id.user_avatar)
+    @OnClick(R.id.user_avatar)
     public void onUserAvatarClick() {
         if (mPresenter.getIssue() != null) {
             Issue issue = mPresenter.getIssue();

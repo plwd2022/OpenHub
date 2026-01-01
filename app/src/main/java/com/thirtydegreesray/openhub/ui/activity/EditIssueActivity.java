@@ -30,6 +30,8 @@ import com.thirtydegreesray.openhub.util.BundleHelper;
 import com.thirtydegreesray.openhub.util.StringUtils;
 import com.thirtydegreesray.openhub.util.ViewUtils;
 
+import butterknife.OnClick;
+
 import java.util.ArrayList;
 
 
@@ -130,7 +132,7 @@ public class EditIssueActivity extends BaseActivity<EditIssuePresenter>
         new ChooseLabelsDialog(getActivity(), labels, this).show();
     }
 
-    // TODO: Restore OnClick @OnClick({R.id.markdown_editor_bn, R.id.edit_labels})
+    @OnClick({R.id.markdown_editor_bn, R.id.edit_labels})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.markdown_editor_bn:

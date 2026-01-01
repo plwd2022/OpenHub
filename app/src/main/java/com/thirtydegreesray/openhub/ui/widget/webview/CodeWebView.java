@@ -82,8 +82,9 @@ public class CodeWebView extends WebView {
         }
         WebSettings settings = getSettings();
         settings.setJavaScriptEnabled(true);
-        settings.setAppCachePath(getContext().getCacheDir().getPath());
-        settings.setAppCacheEnabled(true);
+        // Application Cache is deprecated and removed in API 30+
+        // settings.setAppCachePath(getContext().getCacheDir().getPath());
+        // settings.setAppCacheEnabled(true);
         settings.setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
         settings.setDefaultTextEncodingName("utf-8");
         boolean isLoadImageEnable = PrefUtils.isLoadImageEnable();
